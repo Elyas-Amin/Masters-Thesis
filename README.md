@@ -69,7 +69,6 @@ pip install pandas pyarrow
 
 ## License
 
-This project is licensed under the terms of the MIT License.
-
+This project is licensed under the terms of the GNU General Public License
 
 
