@@ -1,4 +1,4 @@
-# Masters Thesis - Coherence Models and Data Modifications
+# Masters Thesis
 
 ## Overview
 
