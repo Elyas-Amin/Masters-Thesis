@@ -34,7 +34,6 @@ class EDA:
         return df
         
     def average_sentence_length_distribution_plot(self, df):
-        plt.figure(figsize=(6, 3))
         frequency = df['average_sentence_length'].value_counts()
         frequency = frequency.sort_index()
         plt.figure(figsize=(10, 6))
@@ -47,8 +46,23 @@ class EDA:
         output_folder = "/Users/Ghamay/Documents/Masters-Thesis/Data/GCDC/EDA/images"
         output_file = os.path.join(output_folder, 'average_sentence_length_distribution.png')
         plt.savefig(output_file)
+        
+    def total_word_count_distribution_plot(self, df):
+        
+        plt.hist(df["words_per_sentence"], bins=100)
+        plt.figure(figsize=(10, 6))
+        plt.title('Distribution of Word Count')
+        plt.xlabel('Average Text Length')
+        plt.ylabel('Frequency')
+        plt.grid(axis='y')
+        
+        output_folder = "/Users/Ghamay/Documents/Masters-Thesis/Data/GCDC/EDA/images"
+        output_file = os.path.join(output_folder, 'average_text_length_distribution.png')
+        plt.savefig(output_file)
     
     def llm_cost_count(self):
+        gpt4o = 2.5
+        llama = 
         return
     
 def main():
@@ -75,7 +89,10 @@ def main():
     # df.to_parquet(path_to_GCDC_parquet)
 
     #Sentence Length Distribution
-    eda.average_sentence_length_distribution_plot(df)
+    # eda.average_sentence_length_distribution_plot(df)
+    
+    #Word Count Distribution
+    eda.total_word_count_distribution_plot(df)
     print("done")
     print()
     print("_____________________________________")
