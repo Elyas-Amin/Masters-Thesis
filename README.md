@@ -54,12 +54,15 @@ Contains scripts and modules used for data extraction, combination, and modifica
 
 - **Python 3.x**
 - **Pandas**: For data manipulation and Parquet file handling.
+- **Numpy**: Support for large, multi-dimensional arrays.
 - **PyArrow** or **FastParquet**: For Parquet support in Pandas.
+- **NLTK**: Parsing, other NLP tasks.
+
 
 You can install the required libraries using:
 
 ```bash
-pip install pandas pyarrow
+pip install pandas numpy pyarrow nltk
 ```
 
 ### Additional Notes
