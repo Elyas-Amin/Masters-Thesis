@@ -62,8 +62,18 @@ class EDA:
     
     def llm_cost_count(self):
         gpt4o = 2.5
-        llama = 
-        return
+        gpt35 = 1.50
+        llama13b = 0.30
+        mistral7b = 0.25
+        tokens = 847185
+        
+        print(f"Total Costs: {(gpt4o+gpt35+llama13b+mistral7b)*10*tokens/1000000}")
+        print(f"Model\t\tCost/Million Tokens\tSingle Run\tExperiment Total")
+        print(f"GPT-4o\t\t{gpt4o}\t\t\t{round(gpt4o*tokens/1000000,2)}\t\t{round(gpt4o*10*tokens/1000000,2)}")
+        print(f"GPT-3.5\t\t{gpt35}\t\t\t{round(gpt35*tokens/1000000,2)}\t\t{round(gpt35*10*tokens/1000000,2)}")
+        print(f"Llama-13b\t{llama13b}\t\t\t{round(llama13b*tokens/1000000,2)}\t\t{round(llama13b*10*tokens/1000000,2)}")
+        print(f"Mistral-7b\t{mistral7b}\t\t\t{round(mistral7b*tokens/1000000,2)}\t\t{round(mistral7b*10*tokens/1000000,2)}")
+
     
 def main():
     #variables
@@ -72,8 +82,6 @@ def main():
     text_column_name = "text"
     label_column_name = "label"
     eda = EDA()
-
-    # eda.average_sentence_length_distribution_plot(df)
     
     print("_____________________________________")
     
@@ -92,9 +100,11 @@ def main():
     # eda.average_sentence_length_distribution_plot(df)
     
     #Word Count Distribution
-    eda.total_word_count_distribution_plot(df)
-    print("done")
-    print()
+    # eda.total_word_count_distribution_plot(df)
+    
+    #Total Cost
+    eda.llm_cost_count()
+    
     print("_____________________________________")
 
 if __name__ == "__main__":
