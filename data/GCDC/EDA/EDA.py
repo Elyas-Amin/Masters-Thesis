@@ -1,4 +1,6 @@
+import os
 import pandas as pd
+import numpy as np
 import ssl
 import matplotlib.pyplot as plt
 import nltk
@@ -26,17 +28,25 @@ class EDA:
         return {"low": low, "moderate": moderate, "high": high}
     
     def average_sentence_length(self, df):
-        df["number_of_sentences"] = df["sentences"].apply(lambda x: len(sent_tokenize(x)))
-        print("done")
-        df["sentence_length"] = df["number_of_sentences"].apply(lambda x: [len(word_tokenize(x)) for sentence in x])
-        df["average_sentence_length"] = df["sentence_length"]/df["number_of_sentences"]
-        
-        print(df["number_of_sentences"])
-
-    
-    def average_sentence_length_distribution(self, df, column_name):
-        df['average_sentence_length'] = df[column_name].apply(self.average_sentence_length)
+        df["number_of_sentences"] = df["sentences"].apply(lambda x: len(x))
+        df["words_per_sentence"] = df["sentences"].apply(lambda x: sum([len(sentence) for sentence in x]))
+        df["average_sentence_length"] = round(df["words_per_sentence"]/df["number_of_sentences"])
         return df
+        
+    def average_sentence_length_distribution_plot(self, df):
+        plt.figure(figsize=(6, 3))
+        frequency = df['average_sentence_length'].value_counts()
+        frequency = frequency.sort_index()
+        plt.figure(figsize=(10, 6))
+        frequency.plot(kind='bar', color='blue', edgecolor='black')   
+        plt.title('Distribution of Average Sentence Lengths')
+        plt.xlabel('Average Sentence Length')
+        plt.ylabel('Frequency')
+        plt.grid(axis='y')
+        
+        output_folder = "/Users/Ghamay/Documents/Masters-Thesis/Data/GCDC/EDA/images"
+        output_file = os.path.join(output_folder, 'average_sentence_length_distribution.png')
+        plt.savefig(output_file)
     
     def llm_cost_count(self):
         return
@@ -48,6 +58,8 @@ def main():
     text_column_name = "text"
     label_column_name = "label"
     eda = EDA()
+
+    # eda.average_sentence_length_distribution_plot(df)
     
     print("_____________________________________")
     
@@ -58,16 +70,13 @@ def main():
     # eda.coherence_frequency(df, label_column_name)
     # print(f"Total number of tokens in the dataset: {total_tokens}")
     
-    #Average Sentence Length Calculation/Chart
-    eda.average_sentence_length(df)
-    # plt.figure(figsize=(6, 3))
-    # plt.hist(df['average_sentence_length'])
-    # plt.title('Distribution of Average Sentence Lengths')
-    # plt.xlabel('Average Sentence Length')
-    # plt.ylabel('Frequency')
-    # plt.grid(True)
-    # plt.show()
-    
+    #Average Sentence Length Calculation
+    # eda.average_sentence_length(df)
+    # df.to_parquet(path_to_GCDC_parquet)
+
+    #Sentence Length Distribution
+    eda.average_sentence_length_distribution_plot(df)
+    print("done")
     print()
     print("_____________________________________")
 
