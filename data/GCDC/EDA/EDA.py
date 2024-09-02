@@ -4,6 +4,7 @@ import numpy as np
 import ssl
 import matplotlib.pyplot as plt
 import nltk
+import spacy
 ssl._create_default_https_context = ssl._create_unverified_context
 nltk.download('punkt_tab')
 from nltk.tokenize import word_tokenize, sent_tokenize
@@ -73,6 +74,11 @@ class EDA:
         print(f"GPT-3.5\t\t{gpt35}\t\t\t{round(gpt35*tokens/1000000,2)}\t\t{round(gpt35*10*tokens/1000000,2)}")
         print(f"Llama-13b\t{llama13b}\t\t\t{round(llama13b*tokens/1000000,2)}\t\t{round(llama13b*10*tokens/1000000,2)}")
         print(f"Mistral-7b\t{mistral7b}\t\t\t{round(mistral7b*tokens/1000000,2)}\t\t{round(mistral7b*10*tokens/1000000,2)}")
+        
+    def POS_tagging(self, df):
+        nlp = spacy.load('en_core_web_sm')
+
+        return
 
     
 def main():
@@ -103,7 +109,7 @@ def main():
     # eda.total_word_count_distribution_plot(df)
     
     #Total Cost
-    eda.llm_cost_count()
+    # eda.llm_cost_count()
     
     print("_____________________________________")
 

@@ -57,12 +57,13 @@ Contains scripts and modules used for data extraction, combination, and modifica
 - **Numpy**: Support for large, multi-dimensional arrays.
 - **PyArrow** or **FastParquet**: For Parquet support in Pandas.
 - **NLTK**: Parsing, other NLP tasks.
+- **spaCy**: POS Tagging
 
 
 You can install the required libraries using:
 
 ```bash
-pip install pandas numpy pyarrow nltk
+pip install pandas numpy pyarrow nltk spacy
 ```
 
 ### Additional Notes
