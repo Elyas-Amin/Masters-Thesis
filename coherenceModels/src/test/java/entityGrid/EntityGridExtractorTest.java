@@ -1,9 +1,10 @@
-package EntityGrid;
-
-import junit.framework.TestCase;
+package entityGrid;
 
 import java.util.HashMap;
 import java.util.Map;
+import junit.framework.TestCase;
+
+
 
 public class EntityGridExtractorTest extends TestCase {
 
@@ -53,26 +54,26 @@ public class EntityGridExtractorTest extends TestCase {
         EntityGridExtractor extractor = getEntityGridExtractor();
         char[][] grid = extractor.convertPtbsStringToGrids(ptb1);
 
-        int Os = 0;
-        int Ss = 0;
-        int Xs = 0;
+        int os = 0;
+        int ss = 0;
+        int xs = 0;
         //since order is non-deterministic, need to simply count grammatical occurances:
         for (int i = 0; i < grid[0].length; i++) {
             switch (grid[0][i]) {
                 case 'O':
-                    Os++;
+                    os++;
                     break;
                 case 'X':
-                    Xs++;
+                    xs++;
                     break;
                 case 'S':
-                    Ss++;
+                    ss++;
                     break;
             }
         }
-        assertEquals(message, 2, Ss);
-        assertEquals(message, 2, Xs);
-        assertEquals(message, 4, Os);
+        assertEquals(message, 2, ss);
+        assertEquals(message, 2, xs);
+        assertEquals(message, 4, os);
 
     }
 

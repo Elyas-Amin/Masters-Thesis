@@ -1,4 +1,4 @@
-package EntityGrid;
+package entityGrid;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
@@ -12,8 +12,14 @@ import edu.stanford.nlp.semgraph.SemanticGraphEdge;
 import edu.stanford.nlp.trees.EnglishGrammaticalRelations;
 import edu.stanford.nlp.trees.GrammaticalRelation;
 import edu.stanford.nlp.util.CoreMap;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
 
-import java.util.*;
+
+
 
 /**
  * Constructs an entity grid from a given file. The file may be English, French or German.
@@ -205,7 +211,9 @@ public class EntityGridFramework {
                 || posTag.equalsIgnoreCase(NN) || posTag.equalsIgnoreCase(N) || posTag.equalsIgnoreCase(NE)
                 || posTag.equalsIgnoreCase(NC) || posTag.equalsIgnoreCase(NPP)) {
             return true;
-        } else return posTag.equalsIgnoreCase("ADJ");
+        } else {
+            return posTag.equalsIgnoreCase("ADJ");
+        }
     }
 
     private boolean determineGrammaticalRelation(

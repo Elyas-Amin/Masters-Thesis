@@ -1,4 +1,4 @@
-package EntityGrid;
+package entityGrid;
 
 import edu.stanford.nlp.ling.HasWord;
 

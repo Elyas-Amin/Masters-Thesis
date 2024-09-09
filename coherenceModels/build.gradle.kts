@@ -4,26 +4,25 @@ plugins {
 version = "1.0-SNAPSHOT"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(JavaVersion.VERSION_22.majorVersion))
+    }
 }
 
 repositories {
     mavenCentral()
     maven {
-        url = uri("https://repo.spring.io/milestone")
-    }
-    maven {
-        url = uri("https://repo.spring.io/snapshot")
+        url = uri("https://repo.spring.io")
+        content {
+            includeGroupByRegex(".*spring.*")
+        }
     }
 }
 
+
 dependencies {
-    // Add your project's dependencies here
     implementation("org.springframework:spring-core:5.3.20")
     implementation("org.springframework:spring-context:5.3.20")
-
-    // JUnit 5 for testing
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
 
@@ -35,15 +34,14 @@ dependencies {
     // Additional dependencies for Stanford NLP tools
     implementation("edu.stanford.nlp:stanford-parser:3.9.2")
 
+    implementation("com.google.guava:guava:32.0.1-jre")
 }
 
 tasks.test {
-    useJUnitPlatform()
     testLogging {
         showStandardStreams = true
-        events("passed", "skipped", "failed")
     }
 
     // Specify the test class to run
-    include("**/src/test/EntityGridFrameworkTest")
+    include("**EntityGridFrameworkTest")
 }
