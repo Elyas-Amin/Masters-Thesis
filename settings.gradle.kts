@@ -1,3 +1,3 @@
-rootProject.name = "Masters-Thesis"
+rootProject.name = "mastersThesis"
 
-include("CoherenceModels")
+include("coherenceModels")
