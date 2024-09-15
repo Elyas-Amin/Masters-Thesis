@@ -122,10 +122,7 @@ public class EntityGridFramework {
      * Read in source text and invoke coreference resolver to identify entities.
      */
     public Map<String, ArrayList<Map<Integer, String>>> identifyEntitiesFromSentences(String docAsString) {
-        List<CoreMap> sentences = getAnnotatedDocument(docAsString);
-        Map<String, ArrayList<Map<Integer, String>>> entities = identifyEntities(sentences);
-
-        return entities;
+        return identifyEntities(getAnnotatedDocument(docAsString));
     }
 
     /**
@@ -162,51 +159,50 @@ public class EntityGridFramework {
      */
     public Map<String, ArrayList<Map<Integer, String>>> identifyEntities(List<CoreMap> sentences) {
 
-        Map<String, ArrayList<Map<Integer, String>>> entities = new HashMap<String, ArrayList<Map<Integer, String>>>();
+        Map<String, ArrayList<Map<Integer, String>>> entities = new HashMap<>();
+        int idx = 0;  // Sentence index
 
-        //FileOutputUtils.writeDebugToFile(debugFile, "doc= "+docAsString+"\n sentences: "+sentences);
-        buffer.append("sentences: " + sentences.size());
-
-        int idx = 0;
         for (CoreMap sentence : sentences) {
-
-            //FileOutputUtils.writeDebugToFile(debugFile, "\n sentence: "+sentence);
-            buffer.append("\n " + idx + " sentence: " + sentence);
+            System.out.println("Processing sentence " + idx + ": " + sentence);
 
             for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
-
-                String ner = token.ner();
                 String pos = token.get(PartOfSpeechAnnotation.class);
-                System.out.println("POS " + pos + " for " + token.lemma());
+                System.out.println("POS: " + pos + " for " + token.lemma());
 
                 if (isNoun(pos)) {
-
-                    //get the Stanford dependency graph of the current sentence
                     SemanticGraph dependencies = sentence.get(BasicDependenciesAnnotation.class);
-                    boolean isSubjOrObj = false;
+                    System.out.println(dependencies);
+                    char isSubjOrObj = 'X';
 
                     if (dependencies != null) {
                         for (SemanticGraphEdge edge : dependencies.edgeIterable()) {
+                            System.out.println("Relation: " + edge.getRelation() + " between " + edge.getSource().word() + " and " + edge.getTarget().word());
+                            System.out.print(token.get(CoreAnnotations.ValueAnnotation.class));
+                            System.out.print(" ");
+                            System.out.print(edge.getTarget().get(CoreAnnotations.ValueAnnotation.class));
+                            System.out.print(" ");
+                            System.out.println(token.get(CoreAnnotations.ValueAnnotation.class).equals(edge.getTarget().get(CoreAnnotations.ValueAnnotation.class)));
                             if (token.get(CoreAnnotations.ValueAnnotation.class).equals(edge.getTarget().get(CoreAnnotations.ValueAnnotation.class))) {
                                 GrammaticalRelation relation = edge.getRelation();
-
                                 isSubjOrObj = determineGrammaticalRelation(entities, idx, token, relation);
                             }
                         }
                     }
-                    if (!isSubjOrObj) {
-                        System.out.println("found: " + token.lemma());
-                        trackEntity(token.lemma(), idx, X, entities);
-                    }
+                    // Track the entity with the correct idx for the sentence
+                    trackEntity(token.lemma(), idx, isSubjOrObj, entities);
+                    System.out.println("Tracking entity: " + token.lemma() + " at index " + idx + " with role " + isSubjOrObj);
+                    System.out.println("Entity: " + token.lemma() + " at index " + idx + " tracked with role " + isSubjOrObj);
                 }
             }
+
+            // Increment idx after each sentence is processed
             idx++;
         }
+
         return entities;
     }
 
     private boolean isNoun(String posTag) {
-
         if (posTag.equalsIgnoreCase(NNP) || posTag.equalsIgnoreCase(NP) || posTag.equalsIgnoreCase(NNS)
                 || posTag.equalsIgnoreCase(NN) || posTag.equalsIgnoreCase(N) || posTag.equalsIgnoreCase(NE)
                 || posTag.equalsIgnoreCase(NC) || posTag.equalsIgnoreCase(NPP)) {
@@ -216,38 +212,38 @@ public class EntityGridFramework {
         }
     }
 
-    private boolean determineGrammaticalRelation(
+    private char determineGrammaticalRelation(
             Map<String, ArrayList<Map<Integer, String>>> entities, int idx,
             CoreLabel token, GrammaticalRelation relation) {
-        /**csubj,  csubjpass, {xsubj}: controlling subject}, subj,  nsubj (nominal subject), nsubjpass
-         I should maybe also have tracked nsubjpass (passive nominal subject)
-         and csubj (clausal subject).
-         And instead of just  pobj (object of a preposition)
-         maybe also dobj ( direct object) and iobj ( indirect object )
-         */
-        boolean isSubjOrObj = false;
-        if (relation.getShortName() == EnglishGrammaticalRelations.PREPOSITIONAL_OBJECT.getShortName()
-                || relation.getShortName() == EnglishGrammaticalRelations.OBJECT.getShortName()
-                || relation.getShortName() == EnglishGrammaticalRelations.DIRECT_OBJECT.getShortName()
-                || relation.getShortName() == EnglishGrammaticalRelations.INDIRECT_OBJECT.getShortName()
-            //|| relation.getShortName() == UniversalGrammaticalRelations.NOMINAL_MODIFIER.getShortName()
-        ) {//pobj: nmod pobj has changed to nmod in Stanford nlp 3.5.2
-            trackEntity(token.lemma(), idx, O, entities);
-            //System.out.println("found: "+token.lemma()+"  as "+relation);
-            isSubjOrObj = true;
-        } else if (relation.getShortName() == EnglishGrammaticalRelations.SUBJECT.getShortName()
-                || relation.getShortName() == EnglishGrammaticalRelations.CLAUSAL_SUBJECT.getShortName()
-                || relation.getShortName() == EnglishGrammaticalRelations.CLAUSAL_PASSIVE_SUBJECT.getShortName()
-                || relation.getShortName() == EnglishGrammaticalRelations.NOMINAL_SUBJECT.getShortName()
-                || relation.getShortName() == EnglishGrammaticalRelations.NOMINAL_PASSIVE_SUBJECT.getShortName()) {
 
-            trackEntity(token.lemma(), idx, S, entities);
-            //System.out.println("found: "+token.lemma()+"  as "+relation);
-            isSubjOrObj = true;
+        char isSubjOrObj = 'X';
+        System.out.println("In determineGrammaticalRelation:");
+        System.out.println("relation: " + relation);
+        // Check for object relations
+        if (relation.getShortName().equals(EnglishGrammaticalRelations.PREPOSITIONAL_OBJECT.getShortName())
+                || relation.getShortName().equals(EnglishGrammaticalRelations.OBJECT.getShortName())
+                || relation.getShortName().equals(EnglishGrammaticalRelations.DIRECT_OBJECT.getShortName())
+                || relation.getShortName().equals(EnglishGrammaticalRelations.INDIRECT_OBJECT.getShortName())
+        ) {
+            System.out.println("is object: ");
+            isSubjOrObj = 'O';
+            trackEntity(token.lemma(), idx, O, entities);  // Track as object (O)
         }
-        System.out.println("found: " + token.lemma() + "  as " + relation + " returning " + isSubjOrObj);
+        // Check for subject relations
+        else if (relation.getShortName().equals(EnglishGrammaticalRelations.SUBJECT.getShortName())
+                || relation.getShortName().equals(EnglishGrammaticalRelations.CLAUSAL_SUBJECT.getShortName())
+                || relation.getShortName().equals(EnglishGrammaticalRelations.CLAUSAL_PASSIVE_SUBJECT.getShortName())
+                || relation.getShortName().equals(EnglishGrammaticalRelations.NOMINAL_SUBJECT.getShortName())
+                || relation.getShortName().equals(EnglishGrammaticalRelations.NOMINAL_PASSIVE_SUBJECT.getShortName())) {
+            System.out.println("is subject: ");
+            isSubjOrObj = 'S';
+            trackEntity(token.lemma(), idx, S, entities);  // Track as a subject (S)
+        }
+        // Debugging output to verify the relations found
+        System.out.println("found: " + token.lemma() + " as " + relation.getShortName() + " returning " + String.valueOf(isSubjOrObj));
         return isSubjOrObj;
     }
+
 
     /**
      * @param entities        is Map for tracking occurances in format : "word"->list of : sentence_number->grammatical_role
@@ -256,40 +252,53 @@ public class EntityGridFramework {
      * @param grammaticalRole is the grammatical role played by this entity in this particular instance
      */
     protected void trackEntity(String lemma, int idx, char grammaticalRole, Map<String, ArrayList<Map<Integer, String>>> entities) {
+        // Get the current list of occurrences for the entity (lemma)
+        System.out.println("lemma: " + lemma);
+        ArrayList<Map<Integer, String>> entityOccurrences = entities.get(lemma);
+        System.out.println("entityOccurrences: " + entityOccurrences);
 
-        //format : "word"->list of : sentence_number->grammatical_role
-        //list of all the sentences in which the entity occurs
-        ArrayList<Map<Integer, String>> entity = entities.get(lemma);
-
-        if (entity == null) {//create an entry
-            entity = new ArrayList<Map<Integer, String>>();
-            Map<Integer, String> occurances = new HashMap<Integer, String>();
-            occurances.put(idx, String.valueOf(grammaticalRole));
-            entity.add(occurances);
-
-            entities.put(lemma, entity);
+        if (entityOccurrences == null) {
+            // If no occurrences found, create a new list for the entity
+            entityOccurrences = new ArrayList<>();
+            entities.put(lemma, entityOccurrences);
         }
-        boolean found = false;
-        //check all sentences where it occurs
-        for (Map<Integer, String> occurance : entity) {
 
-            if (occurance.get(idx) != null) {
-                String role = occurance.get(idx);
-                found = true;
-                //check if should overwrite with higher grammatical ranking
-                if (role.charAt(0) == X || role.charAt(0) == O && grammaticalRole == S) {
-                    occurance.put(idx, String.valueOf(grammaticalRole));
+        // Flag to indicate if the entity has been found in the current sentence
+        boolean foundInCurrentSentence = false;
+
+        // Iterate through the list of occurrences and check if it is already in this sentence
+        for (Map<Integer, String> occurrence : entityOccurrences) {
+            if (occurrence.containsKey(idx)) {
+                foundInCurrentSentence = true;
+                String currentRole = occurrence.get(idx);
+
+                // Only update grammatical role if it's truly necessary:
+                // 1. If the current role is 'X', we can upgrade to 'O' or 'S'
+                // 2. If the current role is 'O', we do NOT upgrade to 'S' in the same sentence
+                if (currentRole.equals(String.valueOf('X')) || (currentRole.equals(String.valueOf('O')) && grammaticalRole != 'S')) {
+                    occurrence.put(idx, String.valueOf(grammaticalRole));  // Update role to the higher priority one
+                    System.out.println("Updating role for " + lemma + " to " + grammaticalRole + " in sentence " + idx);
+                } else if (currentRole.equals(String.valueOf('O')) && grammaticalRole == 'S') {
+                    System.out.println("Not updating role for " + lemma + " because it is already marked as an object (O)");
+                } else {
+                    System.out.println("No update needed for " + lemma + " with role " + currentRole);
                 }
+                break; // Stop further checks as we found the sentence
             }
         }
 
-        //if hasnt occurred in this sentence yet, add it in
-        if (!found) {
-            Map<Integer, String> occurances = new HashMap<Integer, String>();
-            occurances.put(idx, String.valueOf(grammaticalRole));
-            entity.add(occurances);
+        // If the entity was not found in the current sentence, add a new occurrence
+        if (!foundInCurrentSentence) {
+            Map<Integer, String> newOccurrence = new HashMap<>();
+            newOccurrence.put(idx, String.valueOf(grammaticalRole));
+            entityOccurrences.add(newOccurrence);
+            System.out.println("Added new occurrence for " + lemma + " at index " + idx + " with role " + grammaticalRole);
         }
     }
+
+
+
+
 
     /**
      * Constructs a grid from the list of noun occurances over all sentences.
@@ -300,17 +309,17 @@ public class EntityGridFramework {
      */
     public char[][] constructGrid(Map<String, ArrayList<Map<Integer, String>>> entities, int numberOfSentences) {
         this.grid = new char[numberOfSentences][entities.size()];
-
+        System.out.println("ENTITIES: " + entities);
         int entityIndex = 0;
         for (String entity : entities.keySet()) {
-            List<Map<Integer, String>> occurances = entities.get(entity);
-            String lexicalInfo = "\n entity: " + entity + " at " + occurances;
+            List<Map<Integer, String>> occurrences = entities.get(entity);
+            String lexicalInfo = "\n entity: " + entity + " at " + occurrences;
             //FileOutputUtils.writeDebugToFile(debugFile, lexicalInfo);
             buffer.append(lexicalInfo);
 
             //only track salient entities: UPDATE: moved this to Python script, as then can derive from existing grids
-            //if(occurances.size() >= SALIENCE){
-            for (Map<Integer, String> occurance : occurances) {
+            //if(occurrences.size() >= SALIENCE){
+            for (Map<Integer, String> occurance : occurrences) {
                 Integer sentence = occurance.keySet().iterator().next();
                 grid[sentence][entityIndex] = occurance.get(sentence).charAt(0);
             }
