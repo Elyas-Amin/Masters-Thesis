@@ -1,5 +1,6 @@
 plugins {
     java
+    id("com.diffplug.spotless") version "6.0.0"
 }
 
 version = "1.0-SNAPSHOT"

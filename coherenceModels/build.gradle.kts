@@ -1,5 +1,24 @@
 plugins {
     java
+    id("com.diffplug.spotless") version "6.0.0"
+}
+spotless {
+    kotlin {
+        target("**/*.kt")
+        ktlint("0.45.2").userData(mapOf("indent_size" to "4", "continuation_indent_size" to "4"))
+        licenseHeader("/* (C) Copyright 2024 */")
+    }
+
+    kotlinGradle {
+        target("**/*.kts")
+        ktlint("0.45.2")
+    }
+
+    format("misc") {
+        target("**/*.md", "**/*.gitignore")
+        trimTrailingWhitespace()
+        endWithNewline()
+    }
 }
 
 version = "1.0-SNAPSHOT"

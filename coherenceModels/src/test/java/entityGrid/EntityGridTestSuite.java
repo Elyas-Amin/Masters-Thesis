@@ -6,6 +6,7 @@ import org.junit.platform.suite.api.Suite;
 @Suite
 @SelectClasses({
         EntityGridFrameworkTest.class,
+        EntityGridExtractorTest.class,
 })
 
 public class EntityGridTestSuite {
