@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">5</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.768s</div>
+<div class="counter">1.995s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,28 @@
 </tr>
 </thead>
 <tr>
+<td class="success">testEntityResolver1()</td>
+<td class="success">1.830s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEntityResolver2()</td>
+<td class="success">0.056s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEntityResolver3()</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">testEntityResolver4()</td>
-<td class="success">1.768s</td>
+<td class="success">0.039s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEntityResolver5()</td>
+<td class="success">0.037s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,14 +107,101 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:49:03.360 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
-16:49:03.363 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
-16:49:03.371 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
-16:49:03.377 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
-16:49:04.040 [Test worker] INFO edu.stanford.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.7 sec].
-16:49:04.041 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
-16:49:04.041 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
-16:49:04.678 [Test worker] INFO edu.stanford.nlp.parser.common.ParserGrammar - Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [0.6 sec].
+<pre>16:55:34.630 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+16:55:34.633 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+16:55:34.647 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+16:55:34.656 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+16:55:35.227 [Test worker] INFO edu.stanford.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.6 sec].
+16:55:35.230 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+16:55:35.232 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+16:55:35.974 [Test worker] INFO edu.stanford.nlp.parser.common.ParserGrammar - Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [0.7 sec].
+lemma: Pact
+entityOccurrences: null
+Added new occurrence for Pact at index 0 with role S
+lemma: Germany
+entityOccurrences: null
+Added new occurrence for Germany at index 0 with role O
+lemma: recession
+entityOccurrences: null
+Added new occurrence for recession at index 0 with role O
+lemma: Italy
+entityOccurrences: null
+Added new occurrence for Italy at index 0 with role X
+lemma: government
+entityOccurrences: null
+Added new occurrence for government at index 0 with role S
+lemma: growth
+entityOccurrences: null
+Added new occurrence for growth at index 0 with role X
+lemma: forecasts
+entityOccurrences: null
+Added new occurrence for forecasts at index 0 with role O
+lemma: output
+entityOccurrences: null
+Added new occurrence for output at index 0 with role O
+ENTITIES: {output=[{0=O}], government=[{0=S}], Pact=[{0=S}], Italy=[{0=X}], growth=[{0=X}], Germany=[{0=O}], recession=[{0=O}], forecasts=[{0=O}]}
+16:55:36.204 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+16:55:36.204 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+16:55:36.206 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+16:55:36.207 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+16:55:36.207 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+16:55:36.207 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+lemma: Herbert
+entityOccurrences: null
+Added new occurrence for Herbert at index 0 with role X
+lemma: Hoover
+entityOccurrences: null
+Added new occurrence for Hoover at index 0 with role S
+lemma: policy
+entityOccurrences: null
+Added new occurrence for policy at index 0 with role X
+lemma: problems
+entityOccurrences: null
+Added new occurrence for problems at index 0 with role O
+lemma: generation
+entityOccurrences: null
+Added new occurrence for generation at index 0 with role X
+lemma: hazards
+entityOccurrences: null
+Added new occurrence for hazards at index 0 with role O
+lemma: front
+entityOccurrences: null
+Added new occurrence for front at index 0 with role O
+lemma: eyes
+entityOccurrences: null
+Added new occurrence for eyes at index 0 with role O
+ENTITIES: {generation=[{0=X}], hazards=[{0=O}], Herbert=[{0=X}], Hoover=[{0=S}], front=[{0=O}], eyes=[{0=O}], policy=[{0=X}], problems=[{0=O}]}
+16:55:36.261 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+16:55:36.261 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+16:55:36.264 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+16:55:36.265 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+16:55:36.265 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+16:55:36.265 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+lemma: hand
+entityOccurrences: null
+Added new occurrence for hand at index 0 with role O
+lemma: GM
+entityOccurrences: null
+Added new occurrence for GM at index 0 with role S
+lemma: decision
+entityOccurrences: null
+Added new occurrence for decision at index 0 with role S
+lemma: sale
+entityOccurrences: null
+Added new occurrence for sale at index 0 with role O
+lemma: Saab
+entityOccurrences: null
+Added new occurrence for Saab at index 0 with role O
+lemma: days
+entityOccurrences: null
+Added new occurrence for days at index 0 with role O
+ENTITIES: {sale=[{0=O}], decision=[{0=S}], GM=[{0=S}], Saab=[{0=O}], days=[{0=O}], hand=[{0=O}]}
+16:55:36.296 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+16:55:36.296 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+16:55:36.298 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+16:55:36.299 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+16:55:36.299 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+16:55:36.299 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
 lemma: EU
 entityOccurrences: null
 Added new occurrence for EU at index 0 with role X
@@ -117,6 +224,28 @@ lemma: year
 entityOccurrences: null
 Added new occurrence for year at index 0 with role X
 ENTITIES: {EU=[{0=X}], cars=[{0=S}], study=[{0=O}], feature=[{0=O}], year=[{0=X}], pedestrians=[{0=O}], accidents=[{0=S}]}
+16:55:36.336 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+16:55:36.337 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+16:55:36.340 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+16:55:36.341 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+16:55:36.341 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+16:55:36.341 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+lemma: reduction
+entityOccurrences: null
+Added new occurrence for reduction at index 0 with role S
+lemma: accidents
+entityOccurrences: null
+Added new occurrence for accidents at index 0 with role O
+lemma: people
+entityOccurrences: null
+Added new occurrence for people at index 0 with role O
+lemma: emergency
+entityOccurrences: null
+Added new occurrence for emergency at index 0 with role S
+lemma: systems
+entityOccurrences: null
+Added new occurrence for systems at index 0 with role S
+ENTITIES: {systems=[{0=S}], emergency=[{0=S}], reduction=[{0=S}], accidents=[{0=O}], people=[{0=O}]}
 </pre>
 </span>
 </div>
@@ -128,7 +257,7 @@ ENTITIES: {EU=[{0=X}], cars=[{0=S}], study=[{0=O}], feature=[{0=O}], year=[{0=X}
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.8</a> at Sep 23, 2024, 4:49:04 PM</p>
+<a href="http://www.gradle.org">Gradle 8.8</a> at Sep 23, 2024, 4:55:36 PM</p>
 </div>
 </div>
 </body>
