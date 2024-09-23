@@ -1,4 +1,4 @@
-package entityGrid;
+package utils;
 
 public interface Projection {
 

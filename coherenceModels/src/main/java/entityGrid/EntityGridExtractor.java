@@ -9,6 +9,9 @@ import edu.stanford.nlp.trees.PennTreeReader;
 import edu.stanford.nlp.trees.PennTreebankLanguagePack;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TypedDependency;
+import utils.CorpusReader;
+import utils.FileOutputUtils;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -10,6 +10,7 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
+import utils.CorpusReader;
 
 public class EntityGridFrameworkTest {
     public static final String teststring1 = "I love Berlin. Berlin is a very cosmopolitan city in Germany. The city is just buzzing.";

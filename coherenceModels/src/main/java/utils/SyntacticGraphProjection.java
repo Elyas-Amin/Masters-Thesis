@@ -1,6 +1,7 @@
-package entityGrid;
+package utils;
 
 import com.google.common.collect.Sets.SetView;
+
 import java.util.Map;
 
 public class SyntacticGraphProjection extends GraphProjection {

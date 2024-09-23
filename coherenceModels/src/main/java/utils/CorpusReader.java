@@ -1,4 +1,4 @@
-package entityGrid;
+package utils;
 
 import edu.stanford.nlp.trees.PennTreeReader;
 import edu.stanford.nlp.trees.Tree;

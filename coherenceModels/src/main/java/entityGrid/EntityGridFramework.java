@@ -12,6 +12,9 @@ import edu.stanford.nlp.semgraph.SemanticGraphEdge;
 import edu.stanford.nlp.trees.EnglishGrammaticalRelations;
 import edu.stanford.nlp.trees.GrammaticalRelation;
 import edu.stanford.nlp.util.CoreMap;
+import utils.CorpusReader;
+import utils.FileOutputUtils;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -135,7 +138,7 @@ public class EntityGridFramework {
         return constructGrid(entities, sentences.size());
     }
 
-    protected List<CoreMap> getAnnotatedDocument(String docAsString) {
+    public List<CoreMap> getAnnotatedDocument(String docAsString) {
         Annotation document = new Annotation(docAsString);
         this.pipeline.annotate(document);
         List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);

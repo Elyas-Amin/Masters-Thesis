@@ -1,7 +1,8 @@
-package entityGrid;
+package utils;
 
 import com.google.common.collect.Sets;
 import com.google.common.collect.Sets.SetView;
+
 import java.util.Iterator;
 import java.util.Map;
 
