@@ -299,10 +299,6 @@ public class EntityGridFramework {
         }
     }
 
-
-
-
-
     /**
      * Constructs a grid from the list of noun occurances over all sentences.
      * The grid is a 2D array where entities are tracked on the vertical, and each sentence is a horizontal.
