@@ -90,36 +90,15 @@ public class EntityGridFramework {
 
     public static void main(String[] args) {
 
-        String filename = args[0];
-        String outputfile = args[1];
-        String multiple = args[2];
-        String language = args[3];
-        boolean isXML = Boolean.valueOf(args[4]);
-        EntityGridFramework gridframework = new EntityGridFramework();
-        String doc = CorpusReader.readDataAsString(filename);
+        String fileName = args[0];
+        String outputFile = args[1];
+        EntityGridFramework gridFramework = new EntityGridFramework();
+        boolean isListofStrings = if
+        String doc = CorpusReader.readDataAsString(fileName);
 
-        char[][] grid = gridframework.identifyEntitiesAndConstructGrid(doc);
-        new FileOutputUtils().writeGridToFile(outputfile, grid);
+        char[][] grid = gridFramework.identifyEntitiesAndConstructGrid(doc);
+        FileOutputUtils.writeGridToFile(outputFile, grid);
     }
-
-
-// private static String getTagger(String language) {
-//     switch(language){
-//         case FRENCH: return FrenchEntityGridFramework.FRENCH_TAGGER;
-//         case GERMAN: return GermanEntityGridFramework.GERMAN_TAGGER;
-//         case SPANISH: return SpanishEntityGridFramework.SPANISH_TAGGER;
-//     }
-//     return null;
-// }
-// private static String getParser(String language) {
-//     switch(language){
-//         case FRENCH: return FrenchEntityGridFramework.FRENCH_PARSER;
-//         case GERMAN: return GermanEntityGridFramework.GERMAN_PARSER;
-//         case SPANISH: return SpanishEntityGridFramework.SPANISH_PARSER;
-//     }
-//     return null;
-// }
-
 
     /**
      * Read in source text and invoke coreference resolver to identify entities.

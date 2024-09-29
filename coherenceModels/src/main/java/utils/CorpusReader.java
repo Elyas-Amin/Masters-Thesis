@@ -19,6 +19,7 @@ import org.xml.sax.helpers.DefaultHandler;
  * Basic IO functionality methods
  *
  * @author Karin Sim
+ * adapted by: Elyas Amin
  */
 public class CorpusReader {
     /**
@@ -49,6 +50,17 @@ public class CorpusReader {
     //public Map<String, String> readDataAsDocs(String filename){
     //GZIPInputStream
 
+    public static Boolean isListOfStrings(String filename) {
+        BufferedReader input = null;
+        StringBuilder contents = new StringBuilder();
+
+        CharsetDecoder decoder = StandardCharsets.UTF_8.newDecoder();
+        input = new BufferedReader(new InputStreamReader(new FileInputStream(filename), decoder));
+
+        if input.
+
+    }
+
     /**
      * Reads in contents of a file and returns as string
      *
@@ -61,7 +73,7 @@ public class CorpusReader {
             StringBuilder contents = new StringBuilder();
 
             CharsetDecoder decoder = StandardCharsets.UTF_8.newDecoder();
-            input = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filename)), decoder));
+            input = new BufferedReader(new InputStreamReader(new FileInputStream(filename), decoder));
 
             for (String line = input.readLine(); line != null; line = input.readLine()) {
 

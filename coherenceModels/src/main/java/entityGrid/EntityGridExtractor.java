@@ -82,9 +82,8 @@ public class EntityGridExtractor extends EntityGridFramework {
      */
     public static void main(String[] args) {
         String directory = args[0];
-        String language = args[1];
         if (args.length > 2) {
-            debug = Boolean.valueOf(args[2]);
+            debug = Boolean.parseBoolean(args[2]);
         }
 
         EntityGridExtractor gridExtractor = new EntityGridExtractor();
