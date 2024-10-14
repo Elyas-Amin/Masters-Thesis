@@ -93,7 +93,7 @@ public class EntityGridFramework {
         String fileName = args[0];
         String outputFile = args[1];
         EntityGridFramework gridFramework = new EntityGridFramework();
-        boolean isListofStrings = if
+//        boolean isListofStrings = if
         String doc = CorpusReader.readDataAsString(fileName);
 
         char[][] grid = gridFramework.identifyEntitiesAndConstructGrid(doc);

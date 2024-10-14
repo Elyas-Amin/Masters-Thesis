@@ -1,6 +1,12 @@
 plugins {
     java
     id("com.diffplug.spotless") version "6.0.0"
+    application
+}
+
+application {
+    // Specify the main class (adjust the package name as necessary)
+    mainClass.set("coherenceModels.EntityExperiments")
 }
 
 spotless {
@@ -37,9 +43,15 @@ dependencies {
     // Guava
     implementation("com.google.guava:guava:32.0.1-jre")
 
+    //for json files
+    implementation("org.json:json:20210307")
+
     // Mockito for mocking
     testImplementation("org.mockito:mockito-core:3.7.7")
     testImplementation("org.mockito:mockito-junit-jupiter:3.7.7")
+
+
+
 }
 
 tasks.test {

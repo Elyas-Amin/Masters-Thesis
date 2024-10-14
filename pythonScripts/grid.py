@@ -15,9 +15,9 @@ import numpy as np
 import sys
 import logging
 import itertools
-from discourse.util import pairwise, bar
-from discourse.doctext import iterdoctext
-from discourse import command
+from util import pairwise, bar
+from doctext import iterdoctext
+# from discourse import command
 import functools
 
 # TODO: generalise vocabulary of roles
