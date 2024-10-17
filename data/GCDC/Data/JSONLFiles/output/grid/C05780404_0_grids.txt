@@ -1,0 +1,14 @@
+# id=C05780404_0
+X-XX-OO-XX-XO--XS-
+-X--X-----O--X----
+X-XX-OO-XX-XO--S--
+-X--X-----O--X----
+-------X---O--X--S
+
+# id=C05780404_0
+X-XX-OO-XX-XO--XS-
+-X--X-----O--X----
+X-XX-OO-XX-XO--S--
+-X--X-----O--X----
+-------X---O--X--S
+

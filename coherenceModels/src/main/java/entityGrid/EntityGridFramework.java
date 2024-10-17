@@ -145,25 +145,25 @@ public class EntityGridFramework {
         int idx = 0;  // Sentence index
 
         for (CoreMap sentence : sentences) {
-            System.out.println("Processing sentence " + idx + ": " + sentence);
+//            System.out.println("Processing sentence " + idx + ": " + sentence);
 
             for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
                 String pos = token.get(PartOfSpeechAnnotation.class);
-                System.out.println("POS: " + pos + " for " + token.lemma());
+//                System.out.println("POS: " + pos + " for " + token.lemma());
 
                 if (isNoun(pos)) {
                     SemanticGraph dependencies = sentence.get(BasicDependenciesAnnotation.class);
-                    System.out.println(dependencies);
+//                    System.out.println(dependencies);
                     char isSubjOrObj = 'X';
 
                     if (dependencies != null) {
                         for (SemanticGraphEdge edge : dependencies.edgeIterable()) {
-                            System.out.println("Relation: " + edge.getRelation() + " between " + edge.getSource().word() + " and " + edge.getTarget().word());
-                            System.out.print(token.get(CoreAnnotations.ValueAnnotation.class));
-                            System.out.print(" ");
-                            System.out.print(edge.getTarget().get(CoreAnnotations.ValueAnnotation.class));
-                            System.out.print(" ");
-                            System.out.println(token.get(CoreAnnotations.ValueAnnotation.class).equals(edge.getTarget().get(CoreAnnotations.ValueAnnotation.class)));
+//                            System.out.println("Relation: " + edge.getRelation() + " between " + edge.getSource().word() + " and " + edge.getTarget().word());
+//                            System.out.print(token.get(CoreAnnotations.ValueAnnotation.class));
+//                            System.out.print(" ");
+//                            System.out.print(edge.getTarget().get(CoreAnnotations.ValueAnnotation.class));
+//                            System.out.print(" ");
+//                            System.out.println(token.get(CoreAnnotations.ValueAnnotation.class).equals(edge.getTarget().get(CoreAnnotations.ValueAnnotation.class)));
                             if (token.get(CoreAnnotations.ValueAnnotation.class).equals(edge.getTarget().get(CoreAnnotations.ValueAnnotation.class))) {
                                 GrammaticalRelation relation = edge.getRelation();
                                 isSubjOrObj = determineGrammaticalRelation(entities, idx, token, relation);
@@ -172,8 +172,8 @@ public class EntityGridFramework {
                     }
                     // Track the entity with the correct idx for the sentence
                     trackEntity(token.lemma(), idx, isSubjOrObj, entities);
-                    System.out.println("Tracking entity: " + token.lemma() + " at index " + idx + " with role " + isSubjOrObj);
-                    System.out.println("Entity: " + token.lemma() + " at index " + idx + " tracked with role " + isSubjOrObj);
+//                    System.out.println("Tracking entity: " + token.lemma() + " at index " + idx + " with role " + isSubjOrObj);
+//                    System.out.println("Entity: " + token.lemma() + " at index " + idx + " tracked with role " + isSubjOrObj);
                 }
             }
 
@@ -199,15 +199,15 @@ public class EntityGridFramework {
             CoreLabel token, GrammaticalRelation relation) {
 
         char isSubjOrObj = 'X';
-        System.out.println("In determineGrammaticalRelation:");
-        System.out.println("relation: " + relation);
+//        System.out.println("In determineGrammaticalRelation:");
+//        System.out.println("relation: " + relation);
         // Check for object relations
         if (relation.getShortName().equals(EnglishGrammaticalRelations.PREPOSITIONAL_OBJECT.getShortName())
                 || relation.getShortName().equals(EnglishGrammaticalRelations.OBJECT.getShortName())
                 || relation.getShortName().equals(EnglishGrammaticalRelations.DIRECT_OBJECT.getShortName())
                 || relation.getShortName().equals(EnglishGrammaticalRelations.INDIRECT_OBJECT.getShortName())
         ) {
-            System.out.println("is object: ");
+//            System.out.println("is object: ");
             isSubjOrObj = 'O';
             trackEntity(token.lemma(), idx, O, entities);  // Track as object (O)
         }
@@ -217,12 +217,12 @@ public class EntityGridFramework {
                 || relation.getShortName().equals(EnglishGrammaticalRelations.CLAUSAL_PASSIVE_SUBJECT.getShortName())
                 || relation.getShortName().equals(EnglishGrammaticalRelations.NOMINAL_SUBJECT.getShortName())
                 || relation.getShortName().equals(EnglishGrammaticalRelations.NOMINAL_PASSIVE_SUBJECT.getShortName())) {
-            System.out.println("is subject: ");
+//            System.out.println("is subject: ");
             isSubjOrObj = 'S';
             trackEntity(token.lemma(), idx, S, entities);  // Track as a subject (S)
         }
         // Debugging output to verify the relations found
-        System.out.println("found: " + token.lemma() + " as " + relation.getShortName() + " returning " + String.valueOf(isSubjOrObj));
+//        System.out.println("found: " + token.lemma() + " as " + relation.getShortName() + " returning " + String.valueOf(isSubjOrObj));
         return isSubjOrObj;
     }
 
@@ -235,9 +235,9 @@ public class EntityGridFramework {
      */
     protected void trackEntity(String lemma, int idx, char grammaticalRole, Map<String, ArrayList<Map<Integer, String>>> entities) {
         // Get the current list of occurrences for the entity (lemma)
-        System.out.println("lemma: " + lemma);
+//        System.out.println("lemma: " + lemma);
         ArrayList<Map<Integer, String>> entityOccurrences = entities.get(lemma);
-        System.out.println("entityOccurrences: " + entityOccurrences);
+//        System.out.println("entityOccurrences: " + entityOccurrences);
 
         if (entityOccurrences == null) {
             // If no occurrences found, create a new list for the entity
@@ -259,11 +259,11 @@ public class EntityGridFramework {
                 // 2. If the current role is 'O', we do NOT upgrade to 'S' in the same sentence
                 if (currentRole.equals(String.valueOf('X')) || (currentRole.equals(String.valueOf('O')) && grammaticalRole != 'S')) {
                     occurrence.put(idx, String.valueOf(grammaticalRole));  // Update role to the higher priority one
-                    System.out.println("Updating role for " + lemma + " to " + grammaticalRole + " in sentence " + idx);
+//                    System.out.println("Updating role for " + lemma + " to " + grammaticalRole + " in sentence " + idx);
                 } else if (currentRole.equals(String.valueOf('O')) && grammaticalRole == 'S') {
-                    System.out.println("Not updating role for " + lemma + " because it is already marked as an object (O)");
+//                    System.out.println("Not updating role for " + lemma + " because it is already marked as an object (O)");
                 } else {
-                    System.out.println("No update needed for " + lemma + " with role " + currentRole);
+//                    System.out.println("No update needed for " + lemma + " with role " + currentRole);
                 }
                 break; // Stop further checks as we found the sentence
             }
@@ -274,7 +274,7 @@ public class EntityGridFramework {
             Map<Integer, String> newOccurrence = new HashMap<>();
             newOccurrence.put(idx, String.valueOf(grammaticalRole));
             entityOccurrences.add(newOccurrence);
-            System.out.println("Added new occurrence for " + lemma + " at index " + idx + " with role " + grammaticalRole);
+//            System.out.println("Added new occurrence for " + lemma + " at index " + idx + " with role " + grammaticalRole);
         }
     }
 

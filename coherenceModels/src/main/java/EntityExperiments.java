@@ -28,7 +28,7 @@ public class EntityExperiments {
 
     public static void main(String[] args) throws Exception {
         // Programmatically define parameters here instead of relying on command-line args
-        String jsonlFilePath = "/Users/Ghamay/Documents/mastersThesis/Data/GCDC/Data/JSONLFiles/Clinton_dev.jsonl";
+        String jsonlFilePath = "/Users/Ghamay/Documents/mastersThesis/Data/GCDC/Data/JSONLFiles/Clinton_train.jsonl";
         boolean gridAndGraph = false;     // Only grid (set to true if both grid and graph are needed)
         int projection = 0;               // Projection value (only needed if gridAndGraph is true)
 
@@ -88,7 +88,7 @@ public class EntityExperiments {
 
         FileOutputUtils.writeGridToFile(
                 outputDirectory.getAbsolutePath(),
-                textId + "_grids",
+                textId + "_grids.txt",
                 framework.constructGrid(entities, sentences.size()), true, textId,
                 false
         );

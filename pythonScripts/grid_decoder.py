@@ -10,9 +10,8 @@ import argparse
 import logging
 import numpy as np
 import itertools
-from discourse.util import pairwise, smart_open
+from util import pairwise, smart_open
 from grid import read_grids, r2i, i2r
-from discourse import command
 from multiprocessing import Pool
 from functools import partial
 
@@ -114,7 +113,6 @@ def main(args):
         print(f'{i}\t{ll}', file=args.output)
 
 
-@command('grid_decoder', 'entity-based')
 def argparser(parser=None, func=main):
     """Parse command line arguments"""
 
