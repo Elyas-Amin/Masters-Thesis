@@ -15,10 +15,9 @@ import numpy as np
 import sys
 import logging
 import itertools
-from util import pairwise, bar
-from doctext import iterdoctext
-# from discourse import command
+from util import pairwise, bar, iterdoctext
 import functools
+import os
 
 # TODO: generalise vocabulary of roles
 r2i = {'S': 3, 'O': 2, 'X': 1, '-': 0}
@@ -26,6 +25,12 @@ i2r = {v: k for k, v in r2i.items()}
 
 
 def read_grids(istream, str2int):
+    """
+    Reads the grids from the input stream using iterdoctext and converts them using str2int mapping.
+    :param istream: input stream to read from
+    :param str2int: a dictionary mapping string roles to integers
+    :return: a list of numpy arrays representing the grids
+    """
     return [np.array([[str2int[role] for role in line] for line in lines], int) for lines, attrs in iterdoctext(istream)]
 
 
@@ -51,9 +56,41 @@ def get_role_count(entity_roles):
     from collections import Counter
     roles = Counter(entity_roles)
     temp = functools.reduce(lambda x, y: x + y, Counter(entity_roles).values())
-
     return temp - roles[0]
 
+
+def process_folder(input_folder, str2int):
+    """
+    Iterates over all files in the input folder, applies the read_grids function to each file, 
+    and returns the results for processing in the main function.
+    
+    :param input_folder: path to the folder containing input files
+    :param str2int: a dictionary mapping string roles to integers
+    :return: a list of processed grids (numpy arrays)
+    """
+    grids = []
+    for filename in os.listdir(input_folder):
+        input_file_path = os.path.join(input_folder, filename)
+        if os.path.isfile(input_file_path):
+            logging.info(f'Processing file: {filename}')
+            with open(input_file_path, 'r') as f:
+                file_grids = read_grids(f, str2int)
+                grids.extend(file_grids)
+    return grids
+
+
+def save_grids(output_folder, filename, grids):
+    """
+    Save the grids to the specified output folder.
+    
+    :param output_folder: path to the folder where output files will be saved
+    :param filename: the filename to save the grids as
+    :param grids: the grids (numpy arrays) to save
+    """
+    os.makedirs(output_folder, exist_ok=True)
+    output_file_path = os.path.join(output_folder, f'processed_{filename}.npy')
+    logging.info(f'Saving processed grids to: {output_file_path}')
+    np.save(output_file_path, grids)
 
 def main(args):
     """Load grids and extract unigrams and bigrams"""
@@ -63,8 +100,17 @@ def main(args):
         format='%(levelname)s: %(message)s'
     )
 
-    training = read_grids(args.input, r2i)
+    # Process the folder and get the training grids
+    training = process_folder(args.input, r2i)
+    
+    # Check that training grids are not empty
+    if not training:
+        logging.error("No training grids were found or processed.")
+        sys.exit(1)
+    
     logging.info('Training set contains %d docs', len(training))
+
+    # Train and extract unigrams and bigrams
     unigrams, bigrams = train(training, len(r2i), args.salience)
     logging.info('%d unigrams and %d bigrams', unigrams.size, bigrams.size)
 
@@ -80,37 +126,12 @@ def main(args):
             fb.write(f'{i2r[r1]}\t{i2r[r2]}\t{bigrams[r1, r2]}\n')
 
 
-@command('grid', 'entity-based')
-def argparser(parser=None, func=main):
-    """Parse command line arguments"""
-
-    if parser is None:
-        parser = argparse.ArgumentParser(prog='grid')
-
-    parser.description = 'Generative implementation of Entity grid'
-    parser.formatter_class = argparse.ArgumentDefaultsHelpFormatter
-
-    parser.add_argument('input', nargs='?', 
-                        type=argparse.FileType('r'), default=sys.stdin,
-                        help='Input corpus in doctext format')
-
-    parser.add_argument('output', 
-                        type=str,
-                        help="Prefix for model files")
-
-    parser.add_argument('--salience', default=0,
-                        type=int,
-                        help='Salience variable for entities')
-
-    parser.add_argument('--verbose', '-v',
-                        action='store_true',
-                        help='Increase the verbosity level')
-
-    if func is not None:
-        parser.set_defaults(func=func)
-
-    return parser
-
-
 if __name__ == '__main__':
-    main(argparser().parse_args())
+    parser = argparse.ArgumentParser(description='Process grids, extract unigrams and bigrams, and save results')
+    parser.add_argument('--input', required=True, help='Input folder containing grid files (directory path)')
+    parser.add_argument('--output', required=True, help='Output base name for unigrams and bigrams')
+    parser.add_argument('--salience', type=int, default=1, help='Salience threshold for counting role occurrences')
+    parser.add_argument('--verbose', '-v', action='store_true', help='Increase output verbosity')
+
+    args = parser.parse_args()
+    main(args)

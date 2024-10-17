@@ -17,6 +17,7 @@ import random
 from collections import defaultdict, Counter
 import random
 import functools
+import os
 
 try:
     from progressbar import ProgressBar, AnimatedMarker, Percentage, Timer, ETA, Bar
@@ -29,9 +30,6 @@ try:
     _TABULATE_ = True
 except:
     _TABULATE_ = False
-
-from doctext import iterdoctext
-
 
 def bar(iterable, msg='', maxval=None, none=False):
     """wraps an iterable with a progress bar"""
@@ -53,16 +51,15 @@ def tabulate(*args, **kwargs):
 
 def pairwise(iterable):
     """
-    Iterate over pairs in the sequence: pairwise((s1, s2, ..., sn)) -> (s1,s2), (s2, s3), ...(sn-1, sn)
+    Iterate over pairs in the sequence: pairwise((s1, s2, ..., sn)) -> (s1, s2), (s2, s3), ...(sn-1, sn)
 
-    >>> seq = [1,2,3,4]
+    >>> seq = [1, 2, 3, 4]
     >>> list(pairwise(seq))
     [(1, 2), (2, 3), (3, 4)]
-
     """
     a, b = itertools.tee(iterable)
     next(b, None)
-    return itertools.izip(a, b)
+    return zip(a, b)  # Use `zip` instead of `itertools.izip`
 
 
 def ibm_pairwise(document, e0=0):
@@ -247,6 +244,32 @@ def smart_open(path, *args, **kwargs):
         return gzip.open(path, *args, **kwargs)
     else:
         return open(path, *args, **kwargs)
+    
+import os
+
+def iterdoctext(istream):
+    """
+    Iterates over documents. Finds doc that start with a '#' and adds attributes to a dict and lines to a list
+    :param istream: where we are reading from
+    :yields: a tuple containing the content of the document (as a list of lines) and the attributes of the document (as a dictionary)
+    """
+    doc = None
+    for line in istream:
+        line = line.strip()
+        if doc is None:
+            if line.startswith('#'):
+                line = line.replace('#', '')
+                doc = {'attrs': {k: v for k, v in [kv.split('=') for kv in line.split()]},
+                        'lines': []}
+        else:
+            if line:
+                doc['lines'].append(line)
+            else:
+                yield doc['lines'], doc['attrs']
+                doc = None
+
+    if doc is not None:
+        yield doc['lines'], doc['attrs']
 
 if __name__ == '__main__':
     print >> sys.stderr, __doc__
