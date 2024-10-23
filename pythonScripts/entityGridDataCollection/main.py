@@ -32,8 +32,8 @@ def main(args):
     logging.info('%d unigrams and %d bigrams', unigrams.size, bigrams.size)
 
     # Construct the path for the training and testing output directories
-    training_output_dir = os.path.join(os.path.dirname(args.input_train), "../OutputData", f"{os.path.splitext(os.path.basename(args.input_train))[0]}_training_data")
-    testing_output_dir = os.path.join(os.path.dirname(args.input_train), "../OutputData", f"{os.path.splitext(os.path.basename(args.input_train))[0]}_testing_data")
+    training_output_dir = os.path.join(os.path.dirname(args.input_train), "../clinton", f"{os.path.splitext(os.path.basename(args.input_train))[0]}_training_data")
+    testing_output_dir = os.path.join(os.path.dirname(args.input_train), "../clinton", f"{os.path.splitext(os.path.basename(args.input_train))[0]}_testing_data")
 
     # Create the directories if they do not exist
     os.makedirs(training_output_dir, exist_ok=True)
@@ -52,6 +52,8 @@ def main(args):
         fb.write('#role\t#role\t#count\n')
         for r1, r2 in itertools.product(range(len(r2i)), range(len(r2i))):
             fb.write(f'{i2r[r1]}\t{i2r[r2]}\t{bigrams[r1, r2]}\n')
+            
+    print("Done Testing")
 
     """Testing"""
     decode_many(train_unigram_file, train_bigram_file, args.salience, args.input_test, testing_output_dir, args.jobs)

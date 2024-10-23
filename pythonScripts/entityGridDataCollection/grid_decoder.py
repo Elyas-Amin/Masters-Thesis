@@ -84,9 +84,13 @@ def decode_many(unigrams, bigrams, salience, input_dir, output_path, jobs, estre
     # Computes the log likelihood of each document in each test file
     pool = Pool(jobs)
     all_L = pool.map(partial(wrapped_loglikelihood, U=U, B=B, salience=salience), tests)
+    print("done")
+
+    # Construct a file path within the testing output directory
+    output_file = os.path.join(output_path, 'results.txt')
 
     # Write results to the output file
-    with smart_open(output_path, 'w') as ostream:
+    with smart_open(output_file, 'w', encoding='utf-8') as ostream:
         print('#file\t#sum\t#mean', file=ostream)
         for input_file, test, L in zip(input_files, tests, all_L):
             print(f'# Processing file: {input_file}', file=ostream)
@@ -96,6 +100,7 @@ def decode_many(unigrams, bigrams, salience, input_dir, output_path, jobs, estre
                 num_entities = test[i].shape[1]
                 print(f'{i}\t{ll}\t{num_sentences}\t{num_entities}', file=ostream)
             print(f'{input_file}\t{L.sum()}\t{np.mean(L)}', file=ostream)
+
 
 
 def main(args):

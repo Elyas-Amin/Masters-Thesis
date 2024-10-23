@@ -1,0 +1,17 @@
+#role	#role	#count
+-	-	1048
+-	X	427
+-	O	86
+-	S	177
+X	-	492
+X	X	267
+X	O	40
+X	S	77
+O	-	89
+O	X	41
+O	O	20
+O	S	23
+S	-	208
+S	X	72
+S	O	13
+S	S	50
