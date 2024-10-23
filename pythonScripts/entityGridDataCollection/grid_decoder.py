@@ -1,5 +1,4 @@
 """
-
 Algorithm for generative entity grid. Takes the transitions from training.
 Created on 25 Nov 2014
 
@@ -9,12 +8,11 @@ import sys
 import argparse
 import logging
 import numpy as np
-import itertools
+import os
 from util import pairwise, smart_open
-from grid import read_grids, r2i, i2r
+from grid import read_grids, r2i
 from multiprocessing import Pool
-from functools import partial
-
+from functools import partial    
 
 def read_unigrams(istream, str2int):
     U = np.zeros(len(str2int), int)
@@ -63,54 +61,51 @@ def wrapped_loglikelihood(corpus, U, B, salience):
         raise
 
 
-def decode_many(unigrams, bigrams, salience, ipaths, opaths, jobs, estream=sys.stderr):
+def decode_many(unigrams, bigrams, salience, input_dir, output_path, jobs, estream=sys.stderr):
     # Reads in the model
     logging.info('Reading unigrams from: %s', unigrams)
-    U = read_unigrams(smart_open(unigrams), r2i)
+    U = read_unigrams(smart_open(unigrams, encoding='latin-1'), r2i)
     logging.info('Read in %d unigrams', U.size)
 
     logging.info('Reading bigrams from: %s', bigrams)
-    B = read_bigrams(smart_open(bigrams), r2i)
+    B = read_bigrams(smart_open(bigrams, encoding='latin-1'), r2i)
     logging.info('Read in %d bigrams', B.size)
 
-    tests = [None] * len(ipaths)
-    for i, ipath in enumerate(ipaths):
-        documents = read_grids(smart_open(ipath), r2i)
-        logging.info('%s: %d test documents read', ipath, len(documents))
+    # Get list of all input files from the directory
+    input_files = [os.path.join(input_dir, f) for f in os.listdir(input_dir) if os.path.isfile(os.path.join(input_dir, f))]
+    logging.info('Found %d input files in directory: %s', len(input_files), input_dir)
+
+    tests = [None] * len(input_files)
+    for i, input_file in enumerate(input_files):
+        documents = read_grids(smart_open(input_file), r2i)
+        logging.info('%s: %d test documents read', input_file, len(documents))
         tests[i] = documents
 
     # Computes the log likelihood of each document in each test file
     pool = Pool(jobs)
     all_L = pool.map(partial(wrapped_loglikelihood, U=U, B=B, salience=salience), tests)
 
-    print('#file\t#sum\t#mean', file=estream)
-    for ipath, opath, test, L in zip(ipaths, opaths, tests, all_L):
-        with smart_open(opath, 'w') as ostream:
+    # Write results to the output file
+    with smart_open(output_path, 'w') as ostream:
+        print('#file\t#sum\t#mean', file=ostream)
+        for input_file, test, L in zip(input_files, tests, all_L):
+            print(f'# Processing file: {input_file}', file=ostream)
             print('#doc\t#logprob\t#sentences\t#entities', file=ostream)
             for i, ll in enumerate(L):
                 num_sentences = test[i].shape[0]
                 num_entities = test[i].shape[1]
                 print(f'{i}\t{ll}\t{num_sentences}\t{num_entities}', file=ostream)
-        print(f'{opath}\t{L.sum()}\t{np.mean(L)}', file=estream)
+            print(f'{input_file}\t{L.sum()}\t{np.mean(L)}', file=ostream)
 
 
 def main(args):
-    """Load data and compute the coherence"""
+    """Load data and compute the coherence for all files in the input directory"""
     logging.basicConfig(
         level=(logging.DEBUG if args.verbose else logging.INFO),
         format='%(levelname)s: %(message)s'
     )
-    U = read_unigrams(args.unigrams, r2i)
-    logging.info('Read in %d unigrams', U.size)
-    B = read_bigrams(args.bigrams, r2i)
-    logging.info('Read in %d bigrams', B.size)
-    test = read_grids(args.input, r2i)
-    logging.info('Scoring %d documents', len(test))
     
-    print('#docid\t#loglikelihood', file=args.output)
-    for i, grid in enumerate(test):
-        ll = grid_loglikelihood(grid, U, B, args.salience)
-        print(f'{i}\t{ll}', file=args.output)
+    decode_many(args.unigrams, args.bigrams, args.salience, args.input_dir, args.output, args.jobs)
 
 
 def argparser(parser=None, func=main):
@@ -128,15 +123,18 @@ def argparser(parser=None, func=main):
     parser.add_argument('bigrams',
                         type=argparse.FileType('r'),
                         help="Path for bigram file")
-    parser.add_argument('input', nargs='?',
-                        type=argparse.FileType('r'), default=sys.stdin,
-                        help='Input corpus in doctext format')
-    parser.add_argument('output', nargs='?',
-                        type=argparse.FileType('w'), default=sys.stdout,
-                        help='Output probabilities')
+    parser.add_argument('input_dir',
+                        type=str,
+                        help='Directory containing input corpus files in doctext format')
+    parser.add_argument('output',
+                        type=str,
+                        help='Path to output file where results will be written')
     parser.add_argument('--salience', default=0,
                         type=int,
                         help='Salience variable for entities')
+    parser.add_argument('--jobs', default=1,
+                        type=int,
+                        help='Number of parallel jobs to run')
     parser.add_argument('--verbose', '-v',
                         action='store_true',
                         help='Increase the verbosity level')

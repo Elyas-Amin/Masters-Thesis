@@ -28,7 +28,7 @@ public class EntityExperiments {
 
     public static void main(String[] args) throws Exception {
         // Programmatically define parameters here instead of relying on command-line args
-        String jsonlFilePath = "/Users/Ghamay/Documents/mastersThesis/Data/GCDC/Data/JSONLFiles/Clinton_train.jsonl";
+        String jsonlFilePath = "/Users/Ghamay/Documents/mastersThesis/Data/GCDC/Data/JSONLFiles/Clinton_test.jsonl";
         boolean gridAndGraph = false;     // Only grid (set to true if both grid and graph are needed)
         int projection = 0;               // Projection value (only needed if gridAndGraph is true)
 
@@ -75,7 +75,7 @@ public class EntityExperiments {
         String parentDir = inputFile.getParent();  // This gets the parent directory, not including the file name
 
         // Now use this parent directory to create output directories
-        File outputDirectory = new File(parentDir + "/output/grid");
+        File outputDirectory = new File(parentDir, "../OutputData/clinton_test_grids");
 
         // Check if directory exists, if not, create it
         if (!outputDirectory.exists()) {

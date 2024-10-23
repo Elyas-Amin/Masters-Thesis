@@ -63,10 +63,6 @@ def process_folder(input_folder, str2int):
     """
     Iterates over all files in the input folder, applies the read_grids function to each file, 
     and returns the results for processing in the main function.
-    
-    :param input_folder: path to the folder containing input files
-    :param str2int: a dictionary mapping string roles to integers
-    :return: a list of processed grids (numpy arrays)
     """
     grids = []
     for filename in os.listdir(input_folder):

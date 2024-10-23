@@ -239,11 +239,8 @@ def encode_test_documents(T, vocab, unk='<unk>'):
     return np.array([[np.array([vocab.get(t, unk_id) for t in S], int) for S in D] for D in T])
 
 
-def smart_open(path, *args, **kwargs):
-    if path.endswith('.gz'):
-        return gzip.open(path, *args, **kwargs)
-    else:
-        return open(path, *args, **kwargs)
+def smart_open(file_path, mode='r', encoding='utf-8'):
+    return open(file_path, mode, encoding=encoding)
     
 import os
 
