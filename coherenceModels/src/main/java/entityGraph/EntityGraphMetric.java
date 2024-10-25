@@ -1,5 +1,6 @@
 package entityGraph;
 
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import entityGrid.EntityGridFramework;
 import utils.BipartiteGraph;
@@ -7,6 +8,7 @@ import utils.BipartiteGraph;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 
 /**
  * Class to implement the required methods for a feature model in Docent. These are as defined below.
@@ -80,7 +82,15 @@ public class EntityGraphMetric {
 
         //StringBuffer stringbuffer = new StringBuffer();
 
-        EntityGridFramework framework = new EntityGridFramework();
+        // Initialize the StanfordCoreNLP pipeline with properties
+        Properties properties = new Properties();
+        properties.put("-parseInside", "HEADLINE|P");
+        properties.put("annotators", "tokenize, ssplit, pos, lemma, parse");
+        properties.put("parse.originalDependencies", true);
+        properties.put("ssplit.eolonly", "false"); // Ensures sentence splitting is based on punctuation
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
+
+        EntityGridFramework framework = new EntityGridFramework(pipeline);
 
         //char grid [][] = framework.identifyEntitiesAndConstructGrid(teststring1);
 

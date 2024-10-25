@@ -1,0 +1,6 @@
+# id=text532NE
+--X--X-X-X----
+-------X-X-O-X
+S-----X------O
+-X-SX--SOOX-O-
+

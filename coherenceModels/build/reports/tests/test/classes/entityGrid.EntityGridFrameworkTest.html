@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - EntityGridFrameworkTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>EntityGridFrameworkTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/entityGrid.html">entityGrid</a> &gt; EntityGridFrameworkTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.543s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testEntityResolver()</td>
+<td class="success">2.467s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEntityResolver2()</td>
+<td class="success">0.332s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAnnotatedDocument()</td>
+<td class="success">0.117s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIdentifyEntitiesBerlin()</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIdentifyEntitiesCity()</td>
+<td class="success">0.100s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testXmlExtractDocs1()</td>
+<td class="success">0.363s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testXmlExtractDocs2()</td>
+<td class="success">1.056s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>21:31:38.186 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+21:31:38.190 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+21:31:38.206 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+21:31:38.217 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+21:31:39.105 [Test worker] INFO edu.stanford.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words-distsim.tagger ... done [0.9 sec].
+21:31:39.106 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+21:31:39.108 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+21:31:39.900 [Test worker] INFO edu.stanford.nlp.parser.common.ParserGrammar - Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [0.8 sec].
+ENTITIES: {city=[{1=X}, {2=S}], Berlin=[{0=O}, {1=S}], Germany=[{1=X}]}
+21:31:40.582 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+21:31:40.582 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+21:31:40.585 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+21:31:40.585 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+21:31:40.586 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+21:31:40.586 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+ENTITIES: {cloud=[{0=X}], unit=[{0=X}], electron=[{0=X}], nucleus=[{0=X}], atom=[{0=S}], matter=[{0=X}]}
+[[X, X, X, X, S, X]]
+counts: 1 5 0
+21:31:40.915 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+21:31:40.915 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+21:31:40.918 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+21:31:40.919 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+21:31:40.919 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+21:31:40.919 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+21:31:41.034 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+21:31:41.034 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+21:31:41.036 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+21:31:41.037 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+21:31:41.037 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+21:31:41.037 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+berlin occurrences[{0=O}, {1=S}]
+21:31:41.144 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+21:31:41.144 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+21:31:41.146 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+21:31:41.147 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+21:31:41.147 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+21:31:41.147 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+{city=[{1=X}, {2=S}], Berlin=[{0=O}, {1=S}], Germany=[{1=X}]}
+city occurrences[{1=X}, {2=S}]
+21:31:41.245 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+21:31:41.245 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+21:31:41.247 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+21:31:41.248 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+21:31:41.248 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+21:31:41.248 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+ENTITIES: {eurozone=[{0=X}], price=[{0=X}], zoom=[{0=O}], force=[{0=X}], inflation=[{0=S}], food=[{0=X}], speed=[{0=X}]}
+21:31:41.609 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - ssplit is now included as part of the tokenize annotator by default
+21:31:41.609 [Test worker] DEBUG edu.stanford.nlp.pipeline.StanfordCoreNLP - Updating annotators from tokenize, ssplit, pos, lemma, parse to tokenize,  pos, lemma, parse
+21:31:41.612 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+21:31:41.612 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+21:31:41.612 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+21:31:41.613 [Test worker] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+ENTITIES: {Fidesz=[{0=X}], December=[{0=X}], period=[{0=X}], socialist=[{1=X}], crisis=[{0=S}], Gallup=[{0=X}, {1=S}], Government=[{0=X}], low=[{1=X}], time=[{1=X}], support=[{0=S}, {1=O}], percent=[{1=X}], base=[{1=O}]}
+ENTITIES: {ballot=[{0=O}], comparison=[{0=X}], election=[{0=X}], Sunday=[{0=X}], determination=[{1=X}], percent=[{0=S}], referendum=[{1=S}]}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at Oct 24, 2024, 9:31:42 PM</p>
+</div>
+</div>
+</body>
+</html>

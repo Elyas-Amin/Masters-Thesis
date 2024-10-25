@@ -8,6 +8,7 @@
 
 package entityGraph;
 
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import entityGrid.EntityGridFramework;
 import utils.BipartiteGraph;
 import utils.CorpusReader;
@@ -15,6 +16,7 @@ import utils.FileOutputUtils;
 
 import java.util.ArrayList;
 import java.util.Map;
+import java.util.Properties;
 
 public class EntityGraph {
 
@@ -35,8 +37,16 @@ public class EntityGraph {
         Map<String, String> docs = new CorpusReader().readXML(filename);
         StringBuffer stringbuffer = new StringBuffer();
 
+        // Initialize the StanfordCoreNLP pipeline with properties
+        Properties properties = new Properties();
+        properties.put("-parseInside", "HEADLINE|P");
+        properties.put("annotators", "tokenize, ssplit, pos, lemma, parse");
+        properties.put("parse.originalDependencies", true);
+        properties.put("ssplit.eolonly", "false"); // Ensures sentence splitting is based on punctuation
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
+
         if (Boolean.valueOf(rawtext) == Boolean.TRUE) {
-            EntityGraph graph = new EntityGraph(new EntityGridFramework());
+            EntityGraph graph = new EntityGraph(new EntityGridFramework(pipeline));
             for (int fileidx = 0; fileidx < docs.size(); fileidx++) {
                 BipartiteGraph bipartitegraph = graph.identifyEntitiesAndConstructGraph(docs.get(fileidx));
                 bipartitegraph.setDocId(outputfile + fileidx + "_debug_");

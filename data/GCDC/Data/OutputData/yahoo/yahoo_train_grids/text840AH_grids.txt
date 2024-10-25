@@ -1,0 +1,6 @@
+# id=text840AH
+--S-----O----
+---X-------S-
+X----OXX-OXS-
+-XSXXSX-O--SX
+

@@ -1,0 +1,6 @@
+# id=3012
+-OXXXXX-XX-X-XX-OX
+OX----X-S-----X-XS
+XX-----XX-S----X-S
+------------X-----
+

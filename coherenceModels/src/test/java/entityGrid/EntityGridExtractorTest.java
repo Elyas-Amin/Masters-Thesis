@@ -2,6 +2,9 @@ package entityGrid;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
+
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -19,7 +22,13 @@ public class EntityGridExtractorTest {
 
     @BeforeEach
     public void setUp() {
-        extractor = new EntityGridExtractor();
+        Properties properties = new Properties();
+        properties.put("-parseInside", "HEADLINE|P");
+        properties.put("annotators", "tokenize, ssplit, pos, lemma, parse");
+        properties.put("parse.originalDependencies", true);
+        properties.put("ssplit.eolonly", "false"); // Ensures sentence splitting is based on punctuation
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
+        extractor = new EntityGridExtractor(pipeline);
     }
 
     private EntityGridExtractor getEntityGridExtractor() {

@@ -1,0 +1,5 @@
+# id=text1546T
+-X-------OXO-OXX
+--XX--XO----X---
+O---XX-OXO------
+

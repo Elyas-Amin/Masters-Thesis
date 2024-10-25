@@ -1,0 +1,6 @@
+# id=Bst8b497_GHgsMMnunN1og
+-S---X----O---------------X--
+----X---O--S--X-----XXX--X---
+--XX----XS--XX-X-X---S-SX--XX
+O---X-XX--------S-SS--X------
+

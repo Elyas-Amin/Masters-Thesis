@@ -1,0 +1,5 @@
+# id=text717PG
+--O------------
+-XX---O---X-XXO
+X--XOO-XXO-X---
+

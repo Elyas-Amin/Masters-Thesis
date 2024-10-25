@@ -21,27 +21,21 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-
-
-
 /**
- * Constructs an entity grid from a given file. The file may be English, French or German.
+ * Constructs an entity grid from a given file in English.
  * The entity grid uses the Stanford Parser to identify all nouns in the input text.
- * For the English version it additionally determines the grammatical role played by that entity in each particular occurance.
- * The various options are set on the commandline, to ensure correct parser is set.
+ * The Stanford Parser additionally determines the grammatical role played by that entity in each particular occurrence.
+ * The various options are set on the commandline to ensure the correct parser is set.
  *
  * @author Karin Sim
+ * adapted by: Elyas Amin
  */
+
 public class EntityGridFramework {
 
-    //private Set<String> POS_TAGS = new HashSet<String>(){NNP, NP, NNS, NN, N, NE};
-    public static final String ENGLISH_PARSER = "edu/stanford/nlp/models/parser/nndep/english_SD.gz";
-    public static final String ENGLISH_TAGGER = "models/english-left3words-distsim.tagger";
-    protected static final char EMPTY = '-';
     protected static final char O = 'O';
     protected static final char S = 'S';
     protected static final char X = 'X';
-    protected static final boolean DEBUG = true;
     private static final String NNP = "NNP";
     private static final String NNS = "NNS";
     private static final String NP = "NP";
@@ -50,54 +44,14 @@ public class EntityGridFramework {
     private static final String NE = "NE";
     private static final String NC = "NC";
     private static final String NPP = "NPP";
-    private static final String ENGLISH = "English";
-    private static final int SALIENCE = 2;
-    protected static String debugFile = "debug";
     protected static StringBuffer buffer = new StringBuffer();
-
     protected StanfordCoreNLP pipeline;
-    protected Properties properties;
     private char[][] grid;
-    //private int sentences;
 
-
-    public EntityGridFramework() {
-
-        properties = new Properties();
-        properties.put("-parseInside", "HEADLINE|P");
-        properties.put("annotators", "tokenize, ssplit, pos, lemma, parse");
-        properties.put("parse.originalDependencies", true);
-        //properties.setProperty("tokenize.whitespace", "true");//for annotator tokenize
-        //properties.setProperty("ssplit.eolonly", "true");//for annotator ssplit
-        properties.put("ssplit.eolonly", "true");//for annotator ssplit
-
-        this.pipeline = new StanfordCoreNLP(properties);
-    }
-
-    public EntityGridFramework(String urlForPOStagger, String urlForParseModel) {
-
-        Properties properties = new Properties();
-        properties.put("-parseInside", "HEADLINE|P");
-        properties.put("annotators", "tokenize, ssplit, pos, lemma, parse");
-        // properties.setProperty("tokenize.whitespace", "true");//for annotator tokenize
-        //properties.setProperty("ssplit.eolonly", "true");//for annotator ssplit
-        //properties.put("parse.model", "edu/stanford/nlp/models/lexparser/frenchFactored.ser.gz");
-        properties.put("parse.model", urlForParseModel);
-        properties.put("pos.model", urlForPOStagger);
-        properties.put("ssplit.eolonly", "true");//for annotator ssplit
-        this.pipeline = new StanfordCoreNLP(properties);
-    }
-
-    public static void main(String[] args) {
-
-        String fileName = args[0];
-        String outputFile = args[1];
-        EntityGridFramework gridFramework = new EntityGridFramework();
-//        boolean isListofStrings = if
-        String doc = CorpusReader.readDataAsString(fileName);
-
-        char[][] grid = gridFramework.identifyEntitiesAndConstructGrid(doc);
-        FileOutputUtils.writeGridToFile(outputFile, grid);
+    // Constructor to pass an existing pipeline
+    // (allows you to use the same pipeline everytime while consecutively extracting grids)
+    public EntityGridFramework(StanfordCoreNLP pipeline) {
+        this.pipeline = pipeline;
     }
 
     /**
@@ -108,7 +62,7 @@ public class EntityGridFramework {
     }
 
     /**
-     * Read in source text and invoke coreference resolve to identify entities.
+     * Read in source text and invoke coreference resolve to identify entities and construct grid.
      */
     public char[][] identifyEntitiesAndConstructGrid(String docAsString) {
         List<CoreMap> sentences = getAnnotatedDocument(docAsString);
@@ -121,37 +75,24 @@ public class EntityGridFramework {
         Annotation document = new Annotation(docAsString);
         this.pipeline.annotate(document);
         List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
-        //List<CoreMap> sentences = document.get(SentencesAnnotation.class);
-        //Map<String, ArrayList<Map <Integer, String>>> entities = identifyEntities(sentences);
-
         return sentences;
     }
 
     /**
-     * Read in source text and invoke coreference resolve to identify entities.
-     */
-    public char[][] getConstructedGrid(Map<String, ArrayList<Map<Integer, String>>> entities, int numberOfSentences) {
-
-        return constructGrid(entities, numberOfSentences);
-    }
-
-    /**
-     * @param sentences
-     * @return
+     * @param sentences list of sentences
+     * @return entities
      */
     public Map<String, ArrayList<Map<Integer, String>>> identifyEntities(List<CoreMap> sentences) {
 
         Map<String, ArrayList<Map<Integer, String>>> entities = new HashMap<>();
         int idx = 0;  // Sentence index
 
-        for (CoreMap sentence : sentences) {
+        for (CoreMap sentence : sentences) { // loop through each sentence
 //            System.out.println("Processing sentence " + idx + ": " + sentence);
-
-            for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
-                String pos = token.get(PartOfSpeechAnnotation.class);
+            for (CoreLabel token : sentence.get(TokensAnnotation.class)) { // loop through each token in the sentence
+                String pos = token.get(PartOfSpeechAnnotation.class); // annotate token
 //                System.out.println("POS: " + pos + " for " + token.lemma());
-
-                if (isNoun(pos)) {
+                if (isNoun(pos)) { //check to see if POS is a noun for that token
                     SemanticGraph dependencies = sentence.get(BasicDependenciesAnnotation.class);
 //                    System.out.println(dependencies);
                     char isSubjOrObj = 'X';
@@ -308,3 +249,37 @@ public class EntityGridFramework {
     }
 
 }
+
+/* GRAVEYARD
+
+    public EntityGridFramework(String urlForPOStagger, String urlForParseModel) {
+
+        Properties properties = new Properties();
+        properties.put("-parseInside", "HEADLINE|P");
+        properties.put("annotators", "tokenize, ssplit, pos, lemma, parse");
+        // properties.setProperty("tokenize.whitespace", "true");//for annotator tokenize
+        //properties.setProperty("ssplit.eolonly", "true");//for annotator ssplit
+        //properties.put("parse.model", "edu/stanford/nlp/models/lexparser/frenchFactored.ser.gz");
+        properties.put("parse.model", urlForParseModel);
+        properties.put("pos.model", urlForPOStagger);
+        properties.put("ssplit.eolonly", "true");//for annotator ssplit
+        this.pipeline = new StanfordCoreNLP(properties);
+    }
+
+        public static void main(String[] args) {
+
+        // Initialize the StanfordCoreNLP pipeline with properties
+        Properties properties = new Properties();
+        properties.put("-parseInside", "HEADLINE|P");
+        properties.put("annotators", "tokenize, ssplit, pos, lemma, parse");
+        properties.put("parse.originalDependencies", true);
+        properties.put("ssplit.eolonly", "false"); // Ensures sentence splitting is based on punctuation
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(properties);
+
+        // Pass the initialized pipeline to the EntityGridFramework
+        EntityGridFramework gridFramework = new EntityGridFramework(pipeline);
+
+        char[][] grid = gridFramework.identifyEntitiesAndConstructGrid(doc);
+        FileOutputUtils.writeGridToFile(outputFile, grid);
+    }
+ */

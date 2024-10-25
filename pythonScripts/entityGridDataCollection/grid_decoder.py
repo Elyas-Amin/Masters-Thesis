@@ -93,7 +93,7 @@ def decode_many(unigrams, bigrams, salience, input_dir, output_path, jobs, estre
     with smart_open(output_file, 'w', encoding='utf-8') as ostream:
         print('#file\t#sum\t#mean', file=ostream)
         for input_file, test, L in zip(input_files, tests, all_L):
-            print(f'# Processing file: {input_file}', file=ostream)
+            print(f'# Processing file: {os.path.splitext(os.path.basename(input_file))[0]}', file=ostream)
             print('#doc\t#logprob\t#sentences\t#entities', file=ostream)
             for i, ll in enumerate(L):
                 num_sentences = test[i].shape[0]

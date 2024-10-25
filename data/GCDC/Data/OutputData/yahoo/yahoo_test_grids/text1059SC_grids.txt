@@ -1,0 +1,5 @@
+# id=text1059SC
+--X---X--O-S-----XS
+--XO--X-S--O-X---X-
+OO--SX-S--O-O-XSX--
+
