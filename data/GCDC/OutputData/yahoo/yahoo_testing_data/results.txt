@@ -1,0 +1,801 @@
+#file	#sum	#mean
+# Processing file: text1026PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5344044635050501	9	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1026PG_grids.txt	-0.5344044635050501	-0.5344044635050501
+# Processing file: text375AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7989037358773854	4	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text375AH_grids.txt	-0.7989037358773854	-0.7989037358773854
+# Processing file: text122PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6703953845754348	7	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text122PG_grids.txt	-0.6703953845754348	-0.6703953845754348
+# Processing file: text1446FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5163636977286054	13	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1446FR_grids.txt	-0.5163636977286054	-0.5163636977286054
+# Processing file: text826AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6659592518613832	8	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text826AH_grids.txt	-0.6659592518613832	-0.6659592518613832
+# Processing file: text150AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5776698866248378	8	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text150AH_grids.txt	-0.5776698866248378	-0.5776698866248378
+# Processing file: text1221FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6125688351818326	9	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1221FR_grids.txt	-0.6125688351818326	-0.6125688351818326
+# Processing file: text790SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6184680613188553	8	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text790SC_grids.txt	-0.6184680613188553	-0.6184680613188553
+# Processing file: text1349SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5434756738043375	11	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1349SC_grids.txt	-0.5434756738043375	-0.5434756738043375
+# Processing file: text86PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6430415037118631	8	52
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text86PG_grids.txt	-0.6430415037118631	-0.6430415037118631
+# Processing file: text329PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7457777412228693	4	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text329PG_grids.txt	-0.7457777412228693	-0.7457777412228693
+# Processing file: text873PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6616177618752634	5	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text873PG_grids.txt	-0.6616177618752634	-0.6616177618752634
+# Processing file: text710AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.966290454240291	5	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text710AH_grids.txt	-0.966290454240291	-0.966290454240291
+# Processing file: text1332NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.39968156199385974	3	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1332NE_grids.txt	-0.39968156199385974	-0.39968156199385974
+# Processing file: text17T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8614083583479297	6	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text17T_grids.txt	-0.8614083583479297	-0.8614083583479297
+# Processing file: text890AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6230116007567251	6	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text890AH_grids.txt	-0.6230116007567251	-0.6230116007567251
+# Processing file: text70AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7747892883616214	6	6
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text70AH_grids.txt	-0.7747892883616214	-0.7747892883616214
+# Processing file: text1855AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5299161540752124	12	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1855AH_grids.txt	-0.5299161540752124	-0.5299161540752124
+# Processing file: text1071PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6336550367944352	9	12
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1071PG_grids.txt	-0.6336550367944352	-0.6336550367944352
+# Processing file: text1059SC_grids
+#doc	#logprob	#sentences	#entities
+0	-1.102998226537612	3	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1059SC_grids.txt	-1.102998226537612	-1.102998226537612
+# Processing file: text697SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5069364116372032	11	12
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text697SC_grids.txt	-0.5069364116372032	-0.5069364116372032
+# Processing file: text1977PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5366848875517568	9	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1977PG_grids.txt	-0.5366848875517568	-0.5366848875517568
+# Processing file: text1888T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7225922116887289	7	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1888T_grids.txt	-0.7225922116887289	-0.7225922116887289
+# Processing file: text1306T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6023157547417597	5	43
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1306T_grids.txt	-0.6023157547417597	-0.6023157547417597
+# Processing file: text1678AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6896631592745521	6	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1678AH_grids.txt	-0.6896631592745521	-0.6896631592745521
+# Processing file: text1151PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5689309465668176	9	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1151PG_grids.txt	-0.5689309465668176	-0.5689309465668176
+# Processing file: text1075NE_grids
+#doc	#logprob	#sentences	#entities
+0	0.0	1	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1075NE_grids.txt	0.0	0.0
+# Processing file: text886T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4836782894311589	11	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text886T_grids.txt	-0.4836782894311589	-0.4836782894311589
+# Processing file: text1684T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.42791069536571563	16	48
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1684T_grids.txt	-0.42791069536571563	-0.42791069536571563
+# Processing file: text131SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.41606412140942417	14	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text131SC_grids.txt	-0.41606412140942417	-0.41606412140942417
+# Processing file: text1555NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.745977183354695	4	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1555NE_grids.txt	-0.745977183354695	-0.745977183354695
+# Processing file: text946FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7618601153692866	5	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text946FR_grids.txt	-0.7618601153692866	-0.7618601153692866
+# Processing file: text233NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6451631790844158	7	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text233NE_grids.txt	-0.6451631790844158	-0.6451631790844158
+# Processing file: text1558FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5506114904761646	11	10
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1558FR_grids.txt	-0.5506114904761646	-0.5506114904761646
+# Processing file: text1848SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6038874339157935	7	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1848SC_grids.txt	-0.6038874339157935	-0.6038874339157935
+# Processing file: text713NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45602418801993777	12	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text713NE_grids.txt	-0.45602418801993777	-0.45602418801993777
+# Processing file: text1044AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.46951962615048526	13	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1044AH_grids.txt	-0.46951962615048526	-0.46951962615048526
+# Processing file: text922NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.604452676033267	8	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text922NE_grids.txt	-0.604452676033267	-0.604452676033267
+# Processing file: text227FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8638777201371244	4	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text227FR_grids.txt	-0.8638777201371244	-0.8638777201371244
+# Processing file: text1474PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3585043158825024	5	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1474PG_grids.txt	-0.3585043158825024	-0.3585043158825024
+# Processing file: text170T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5705181291492705	8	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text170T_grids.txt	-0.5705181291492705	-0.5705181291492705
+# Processing file: text1906NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7374157516826907	6	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1906NE_grids.txt	-0.7374157516826907	-0.7374157516826907
+# Processing file: text1335SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5465827569533126	11	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1335SC_grids.txt	-0.5465827569533126	-0.5465827569533126
+# Processing file: text1221PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5062297388729561	11	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1221PG_grids.txt	-0.5062297388729561	-0.5062297388729561
+# Processing file: text315AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5807579594888861	15	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text315AH_grids.txt	-0.5807579594888861	-0.5807579594888861
+# Processing file: text1199AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5968114470761309	5	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1199AH_grids.txt	-0.5968114470761309	-0.5968114470761309
+# Processing file: text22AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5651748448417874	8	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text22AH_grids.txt	-0.5651748448417874	-0.5651748448417874
+# Processing file: text1869PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5172539138493082	12	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1869PG_grids.txt	-0.5172539138493082	-0.5172539138493082
+# Processing file: text1177NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5383340348653979	10	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1177NE_grids.txt	-0.5383340348653979	-0.5383340348653979
+# Processing file: text508T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5798966823190063	11	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text508T_grids.txt	-0.5798966823190063	-0.5798966823190063
+# Processing file: text429PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5128188101130999	10	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text429PG_grids.txt	-0.5128188101130999	-0.5128188101130999
+# Processing file: text1194SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7015992877549165	8	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1194SC_grids.txt	-0.7015992877549165	-0.7015992877549165
+# Processing file: text1304FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49032872813543305	2	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1304FR_grids.txt	-0.49032872813543305	-0.49032872813543305
+# Processing file: text1318FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5185577889986783	13	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1318FR_grids.txt	-0.5185577889986783	-0.5185577889986783
+# Processing file: text56T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5033014591619276	13	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text56T_grids.txt	-0.5033014591619276	-0.5033014591619276
+# Processing file: text220AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4924582920303754	13	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text220AH_grids.txt	-0.4924582920303754	-0.4924582920303754
+# Processing file: text1339T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5765773546463059	9	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1339T_grids.txt	-0.5765773546463059	-0.5765773546463059
+# Processing file: text1144T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5805303821727409	12	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1144T_grids.txt	-0.5805303821727409	-0.5805303821727409
+# Processing file: text1143AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6067583363043827	8	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1143AH_grids.txt	-0.6067583363043827	-0.6067583363043827
+# Processing file: text332AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6885056093908596	8	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text332AH_grids.txt	-0.6885056093908596	-0.6885056093908596
+# Processing file: text947NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5582012049301059	7	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text947NE_grids.txt	-0.5582012049301059	-0.5582012049301059
+# Processing file: text391AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5093825867651585	11	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text391AH_grids.txt	-0.5093825867651585	-0.5093825867651585
+# Processing file: text1666FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.39056230746875154	3	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1666FR_grids.txt	-0.39056230746875154	-0.39056230746875154
+# Processing file: text414FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4904404945728735	14	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text414FR_grids.txt	-0.4904404945728735	-0.4904404945728735
+# Processing file: text1273SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7023681938437848	5	44
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1273SC_grids.txt	-0.7023681938437848	-0.7023681938437848
+# Processing file: text1426SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6817299831684505	8	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1426SC_grids.txt	-0.6817299831684505	-0.6817299831684505
+# Processing file: text323FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4633089665267873	12	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text323FR_grids.txt	-0.4633089665267873	-0.4633089665267873
+# Processing file: text603FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5267114058547551	8	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text603FR_grids.txt	-0.5267114058547551	-0.5267114058547551
+# Processing file: text1755PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6204553434282633	6	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1755PG_grids.txt	-0.6204553434282633	-0.6204553434282633
+# Processing file: text1761SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5183865341310857	8	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1761SC_grids.txt	-0.5183865341310857	-0.5183865341310857
+# Processing file: text1528SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7708077808889277	6	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1528SC_grids.txt	-0.7708077808889277	-0.7708077808889277
+# Processing file: text1085SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5465127282574038	8	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1085SC_grids.txt	-0.5465127282574038	-0.5465127282574038
+# Processing file: text1872NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7660068271026235	5	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1872NE_grids.txt	-0.7660068271026235	-0.7660068271026235
+# Processing file: text1241SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.675472594581402	7	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1241SC_grids.txt	-0.675472594581402	-0.675472594581402
+# Processing file: text1454NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5829543141776105	7	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1454NE_grids.txt	-0.5829543141776105	-0.5829543141776105
+# Processing file: text1056SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4762067583243631	14	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1056SC_grids.txt	-0.4762067583243631	-0.4762067583243631
+# Processing file: text1506SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5359811859904673	7	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1506SC_grids.txt	-0.5359811859904673	-0.5359811859904673
+# Processing file: text386T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8031641969198391	4	47
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text386T_grids.txt	-0.8031641969198391	-0.8031641969198391
+# Processing file: text1029T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6880501200908069	8	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1029T_grids.txt	-0.6880501200908069	-0.6880501200908069
+# Processing file: text119SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6879080305132381	8	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text119SC_grids.txt	-0.6879080305132381	-0.6879080305132381
+# Processing file: text829AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7132566332541865	7	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text829AH_grids.txt	-0.7132566332541865	-0.7132566332541865
+# Processing file: text1306NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7742887003832328	4	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1306NE_grids.txt	-0.7742887003832328	-0.7742887003832328
+# Processing file: text204AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7088570081543808	5	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text204AH_grids.txt	-0.7088570081543808	-0.7088570081543808
+# Processing file: text1088AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45281383171272865	6	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1088AH_grids.txt	-0.45281383171272865	-0.45281383171272865
+# Processing file: text409NE_grids
+#doc	#logprob	#sentences	#entities
+0	0.0	1	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text409NE_grids.txt	0.0	0.0
+# Processing file: text1362FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5282276381936976	10	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1362FR_grids.txt	-0.5282276381936976	-0.5282276381936976
+# Processing file: text1758NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8323090151881095	4	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1758NE_grids.txt	-0.8323090151881095	-0.8323090151881095
+# Processing file: text571AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6525190082648352	8	11
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text571AH_grids.txt	-0.6525190082648352	-0.6525190082648352
+# Processing file: text241PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5413742803128224	9	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text241PG_grids.txt	-0.5413742803128224	-0.5413742803128224
+# Processing file: text1870T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.54151105737132	9	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1870T_grids.txt	-0.54151105737132	-0.54151105737132
+# Processing file: text717SC_grids
+#doc	#logprob	#sentences	#entities
+0	-1.012787933059691	3	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text717SC_grids.txt	-1.012787933059691	-1.012787933059691
+# Processing file: text675SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5650991513479946	7	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text675SC_grids.txt	-0.5650991513479946	-0.5650991513479946
+# Processing file: text138FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6153445696904198	8	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text138FR_grids.txt	-0.6153445696904198	-0.6153445696904198
+# Processing file: text786SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.737421183386513	6	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text786SC_grids.txt	-0.737421183386513	-0.737421183386513
+# Processing file: text371T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47284988124757543	13	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text371T_grids.txt	-0.47284988124757543	-0.47284988124757543
+# Processing file: text170SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6519168054504497	6	37
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text170SC_grids.txt	-0.6519168054504497	-0.6519168054504497
+# Processing file: text1987T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7713106577649855	4	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1987T_grids.txt	-0.7713106577649855	-0.7713106577649855
+# Processing file: text1790SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7638575483046587	5	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1790SC_grids.txt	-0.7638575483046587	-0.7638575483046587
+# Processing file: text118AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5910927587201222	6	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text118AH_grids.txt	-0.5910927587201222	-0.5910927587201222
+# Processing file: text1293AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4943621585277924	14	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1293AH_grids.txt	-0.4943621585277924	-0.4943621585277924
+# Processing file: text496SC_grids
+#doc	#logprob	#sentences	#entities
+0	-1.048240815900235	2	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text496SC_grids.txt	-1.048240815900235	-1.048240815900235
+# Processing file: text113PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5701754652554183	9	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text113PG_grids.txt	-0.5701754652554183	-0.5701754652554183
+# Processing file: text795PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7486719817215128	7	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text795PG_grids.txt	-0.7486719817215128	-0.7486719817215128
+# Processing file: text1752T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.525938833008618	11	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1752T_grids.txt	-0.525938833008618	-0.525938833008618
+# Processing file: text1007T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4920351834030933	11	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1007T_grids.txt	-0.4920351834030933	-0.4920351834030933
+# Processing file: text1518T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.44976170472166394	13	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1518T_grids.txt	-0.44976170472166394	-0.44976170472166394
+# Processing file: text1218NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.656356107274719	7	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1218NE_grids.txt	-0.656356107274719	-0.656356107274719
+# Processing file: text1330FR_grids
+#doc	#logprob	#sentences	#entities
+0	0.0	1	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1330FR_grids.txt	0.0	0.0
+# Processing file: text460T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4769475400118769	14	11
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text460T_grids.txt	-0.4769475400118769	-0.4769475400118769
+# Processing file: text1545AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6733329113564539	10	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1545AH_grids.txt	-0.6733329113564539	-0.6733329113564539
+# Processing file: text608AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6182539747066319	7	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text608AH_grids.txt	-0.6182539747066319	-0.6182539747066319
+# Processing file: text851SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5265504664661403	9	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text851SC_grids.txt	-0.5265504664661403	-0.5265504664661403
+# Processing file: text1066SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6200516434894677	10	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1066SC_grids.txt	-0.6200516434894677	-0.6200516434894677
+# Processing file: text854NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5875490183806349	6	43
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text854NE_grids.txt	-0.5875490183806349	-0.5875490183806349
+# Processing file: text1297T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48954205024932346	7	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1297T_grids.txt	-0.48954205024932346	-0.48954205024932346
+# Processing file: text1696PG_grids
+#doc	#logprob	#sentences	#entities
+0	-1.0024080221654996	3	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1696PG_grids.txt	-1.0024080221654996	-1.0024080221654996
+# Processing file: text828T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5671629554247845	7	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text828T_grids.txt	-0.5671629554247845	-0.5671629554247845
+# Processing file: text1221T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7198301038364244	7	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1221T_grids.txt	-0.7198301038364244	-0.7198301038364244
+# Processing file: text347SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6418749568672995	7	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text347SC_grids.txt	-0.6418749568672995	-0.6418749568672995
+# Processing file: text587AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6257226176881977	9	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text587AH_grids.txt	-0.6257226176881977	-0.6257226176881977
+# Processing file: text1AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6571164821286882	7	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1AH_grids.txt	-0.6571164821286882	-0.6571164821286882
+# Processing file: text63PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5361195933199514	14	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text63PG_grids.txt	-0.5361195933199514	-0.5361195933199514
+# Processing file: text1785T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5680389461590738	8	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1785T_grids.txt	-0.5680389461590738	-0.5680389461590738
+# Processing file: text1085T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7913324575819431	8	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1085T_grids.txt	-0.7913324575819431	-0.7913324575819431
+# Processing file: text843SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.9275928057916819	5	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text843SC_grids.txt	-0.9275928057916819	-0.9275928057916819
+# Processing file: text322SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6153756841485996	7	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text322SC_grids.txt	-0.6153756841485996	-0.6153756841485996
+# Processing file: text1971AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.556043868090173	9	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1971AH_grids.txt	-0.556043868090173	-0.556043868090173
+# Processing file: text691NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6986731860270455	7	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text691NE_grids.txt	-0.6986731860270455	-0.6986731860270455
+# Processing file: text1069PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.608050384036098	9	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1069PG_grids.txt	-0.608050384036098	-0.608050384036098
+# Processing file: text1397SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8724417202155778	6	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1397SC_grids.txt	-0.8724417202155778	-0.8724417202155778
+# Processing file: text768T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.694498524283745	6	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text768T_grids.txt	-0.694498524283745	-0.694498524283745
+# Processing file: text855FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5835176671376163	9	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text855FR_grids.txt	-0.5835176671376163	-0.5835176671376163
+# Processing file: text1760FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6009860890522462	10	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1760FR_grids.txt	-0.6009860890522462	-0.6009860890522462
+# Processing file: text1033T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5960581150947719	4	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1033T_grids.txt	-0.5960581150947719	-0.5960581150947719
+# Processing file: text668PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5666897193086171	12	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text668PG_grids.txt	-0.5666897193086171	-0.5666897193086171
+# Processing file: text1477AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5943257787893121	6	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1477AH_grids.txt	-0.5943257787893121	-0.5943257787893121
+# Processing file: text339NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6673673032031442	8	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text339NE_grids.txt	-0.6673673032031442	-0.6673673032031442
+# Processing file: text1621NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6581737367446996	3	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1621NE_grids.txt	-0.6581737367446996	-0.6581737367446996
+# Processing file: text107T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7304512860933531	6	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text107T_grids.txt	-0.7304512860933531	-0.7304512860933531
+# Processing file: text140SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6085723911322155	8	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text140SC_grids.txt	-0.6085723911322155	-0.6085723911322155
+# Processing file: text991FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5028338983148537	15	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text991FR_grids.txt	-0.5028338983148537	-0.5028338983148537
+# Processing file: text189PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5188191429396819	11	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text189PG_grids.txt	-0.5188191429396819	-0.5188191429396819
+# Processing file: text1759AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.573608174544444	8	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1759AH_grids.txt	-0.573608174544444	-0.573608174544444
+# Processing file: text1076SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45915144719638473	16	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1076SC_grids.txt	-0.45915144719638473	-0.45915144719638473
+# Processing file: text1663NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5472681856215111	9	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1663NE_grids.txt	-0.5472681856215111	-0.5472681856215111
+# Processing file: text481SC_grids
+#doc	#logprob	#sentences	#entities
+0	0.0	1	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text481SC_grids.txt	0.0	0.0
+# Processing file: text1862SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7826564782024366	7	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1862SC_grids.txt	-0.7826564782024366	-0.7826564782024366
+# Processing file: text513AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5654617020555165	8	12
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text513AH_grids.txt	-0.5654617020555165	-0.5654617020555165
+# Processing file: text1712AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7906621813354707	6	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1712AH_grids.txt	-0.7906621813354707	-0.7906621813354707
+# Processing file: text536T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6146237842335305	6	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text536T_grids.txt	-0.6146237842335305	-0.6146237842335305
+# Processing file: text346AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.41637862940276715	17	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text346AH_grids.txt	-0.41637862940276715	-0.41637862940276715
+# Processing file: text1055AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7103367649880317	8	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1055AH_grids.txt	-0.7103367649880317	-0.7103367649880317
+# Processing file: text1533SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49443933075345636	17	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1533SC_grids.txt	-0.49443933075345636	-0.49443933075345636
+# Processing file: text896FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4504375857811943	8	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text896FR_grids.txt	-0.4504375857811943	-0.4504375857811943
+# Processing file: text370SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.508312883683743	11	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text370SC_grids.txt	-0.508312883683743	-0.508312883683743
+# Processing file: text760T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.615913333742917	7	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text760T_grids.txt	-0.615913333742917	-0.615913333742917
+# Processing file: text937PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7593649876779306	5	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text937PG_grids.txt	-0.7593649876779306	-0.7593649876779306
+# Processing file: text1425AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6039651747704602	10	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1425AH_grids.txt	-0.6039651747704602	-0.6039651747704602
+# Processing file: text165NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6822167897459136	6	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text165NE_grids.txt	-0.6822167897459136	-0.6822167897459136
+# Processing file: text394T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7036144590451742	6	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text394T_grids.txt	-0.7036144590451742	-0.7036144590451742
+# Processing file: text1982PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.619437450097849	9	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1982PG_grids.txt	-0.619437450097849	-0.619437450097849
+# Processing file: text1572SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5376555015583373	11	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1572SC_grids.txt	-0.5376555015583373	-0.5376555015583373
+# Processing file: text44T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5847487882238516	8	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text44T_grids.txt	-0.5847487882238516	-0.5847487882238516
+# Processing file: text1229SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5358814292962221	11	48
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1229SC_grids.txt	-0.5358814292962221	-0.5358814292962221
+# Processing file: text1983AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5731604975301761	5	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1983AH_grids.txt	-0.5731604975301761	-0.5731604975301761
+# Processing file: text1454PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3495556119254275	2	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1454PG_grids.txt	-0.3495556119254275	-0.3495556119254275
+# Processing file: text543SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45098150226786043	17	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text543SC_grids.txt	-0.45098150226786043	-0.45098150226786043
+# Processing file: text10FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4737242530219962	14	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text10FR_grids.txt	-0.4737242530219962	-0.4737242530219962
+# Processing file: text1264PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6591214165105197	10	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1264PG_grids.txt	-0.6591214165105197	-0.6591214165105197
+# Processing file: text1413FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5721084290598807	11	12
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1413FR_grids.txt	-0.5721084290598807	-0.5721084290598807
+# Processing file: text1298T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.42050687873021164	16	85
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1298T_grids.txt	-0.42050687873021164	-0.42050687873021164
+# Processing file: text1754FR_grids
+#doc	#logprob	#sentences	#entities
+0	0.0	1	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1754FR_grids.txt	0.0	0.0
+# Processing file: text691AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5258389315802685	10	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text691AH_grids.txt	-0.5258389315802685	-0.5258389315802685
+# Processing file: text1125SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6479472472881955	6	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1125SC_grids.txt	-0.6479472472881955	-0.6479472472881955
+# Processing file: text1509NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.44443074062353544	15	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1509NE_grids.txt	-0.44443074062353544	-0.44443074062353544
+# Processing file: text1283SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6244185041734371	7	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1283SC_grids.txt	-0.6244185041734371	-0.6244185041734371
+# Processing file: text1139T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4741337882184611	11	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1139T_grids.txt	-0.4741337882184611	-0.4741337882184611
+# Processing file: text751SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5453196137610401	11	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text751SC_grids.txt	-0.5453196137610401	-0.5453196137610401
+# Processing file: text717AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7286571138754903	7	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text717AH_grids.txt	-0.7286571138754903	-0.7286571138754903
+# Processing file: text595SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4886985649006455	16	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text595SC_grids.txt	-0.4886985649006455	-0.4886985649006455
+# Processing file: text1390AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5507824871839273	6	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1390AH_grids.txt	-0.5507824871839273	-0.5507824871839273
+# Processing file: text1729NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5114558187055813	10	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1729NE_grids.txt	-0.5114558187055813	-0.5114558187055813
+# Processing file: text836PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8544045903387714	4	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text836PG_grids.txt	-0.8544045903387714	-0.8544045903387714
+# Processing file: text625FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5717276919056523	9	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text625FR_grids.txt	-0.5717276919056523	-0.5717276919056523
+# Processing file: text1138AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6037132361518034	7	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1138AH_grids.txt	-0.6037132361518034	-0.6037132361518034
+# Processing file: text1468AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.9211062479650938	6	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1468AH_grids.txt	-0.9211062479650938	-0.9211062479650938
+# Processing file: text132T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4842079498364484	10	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text132T_grids.txt	-0.4842079498364484	-0.4842079498364484
+# Processing file: text1617SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7077674371378678	8	12
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1617SC_grids.txt	-0.7077674371378678	-0.7077674371378678
+# Processing file: text1756AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6114468956998851	9	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1756AH_grids.txt	-0.6114468956998851	-0.6114468956998851
+# Processing file: text693FR_grids
+#doc	#logprob	#sentences	#entities
+0	0.0	1	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text693FR_grids.txt	0.0	0.0
+# Processing file: text901AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6433191395166178	6	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text901AH_grids.txt	-0.6433191395166178	-0.6433191395166178
+# Processing file: text1362NE_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7545389514720012	6	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1362NE_grids.txt	-0.7545389514720012	-0.7545389514720012
+# Processing file: text1766PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47814790780249133	12	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1766PG_grids.txt	-0.47814790780249133	-0.47814790780249133
+# Processing file: text1614FR_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5727181728807915	9	11
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1614FR_grids.txt	-0.5727181728807915	-0.5727181728807915
+# Processing file: text586PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45695315820874693	13	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text586PG_grids.txt	-0.45695315820874693	-0.45695315820874693
+# Processing file: text1807PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6671891249913754	6	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1807PG_grids.txt	-0.6671891249913754	-0.6671891249913754
+# Processing file: text1606AH_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6323557913961184	4	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text1606AH_grids.txt	-0.6323557913961184	-0.6323557913961184
+# Processing file: text525PG_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7018514516715749	7	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text525PG_grids.txt	-0.7018514516715749	-0.7018514516715749
+# Processing file: text8T_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4963842783565984	10	37
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text8T_grids.txt	-0.4963842783565984	-0.4963842783565984
+# Processing file: text734SC_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6251672689861635	7	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yahoo/yahoo_test_grids/text734SC_grids.txt	-0.6251672689861635	-0.6251672689861635

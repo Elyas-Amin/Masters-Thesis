@@ -1,0 +1,801 @@
+#file	#sum	#mean
+# Processing file: QvZaJNqrrVj_l-gyPz2Z3A_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5797173763469942	8	12
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/QvZaJNqrrVj_l-gyPz2Z3A_grids.txt	-0.5797173763469942	-0.5797173763469942
+# Processing file: FKx4xYsf9NTay8qlkyu0ew_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5669373091362475	11	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/FKx4xYsf9NTay8qlkyu0ew_grids.txt	-0.5669373091362475	-0.5669373091362475
+# Processing file: 1Kc_trDSrz6drMOVJ2DP8g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5980306426475039	7	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/1Kc_trDSrz6drMOVJ2DP8g_grids.txt	-0.5980306426475039	-0.5980306426475039
+# Processing file: hAgFJD4IKPF5lof-cl3hlA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7269534976428809	6	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/hAgFJD4IKPF5lof-cl3hlA_grids.txt	-0.7269534976428809	-0.7269534976428809
+# Processing file: BamUN7tyUWlm2EbHd-4FVA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5608158793575923	8	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/BamUN7tyUWlm2EbHd-4FVA_grids.txt	-0.5608158793575923	-0.5608158793575923
+# Processing file: gGHVIz1_oVknT5NhKP6A8w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5393000616339242	6	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/gGHVIz1_oVknT5NhKP6A8w_grids.txt	-0.5393000616339242	-0.5393000616339242
+# Processing file: ay5fG0JVsFShPFiJ9N-JjQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7156431544328394	5	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ay5fG0JVsFShPFiJ9N-JjQ_grids.txt	-0.7156431544328394	-0.7156431544328394
+# Processing file: uSi5fBrP8bH3dq9V3bN-Qw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4579370558708279	11	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/uSi5fBrP8bH3dq9V3bN-Qw_grids.txt	-0.4579370558708279	-0.4579370558708279
+# Processing file: QdvyaVuhvSonD-V5-8YPYg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6958937613508455	6	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/QdvyaVuhvSonD-V5-8YPYg_grids.txt	-0.6958937613508455	-0.6958937613508455
+# Processing file: zVU8PV5i9mKTJtBNIv_2Sg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5978051147026434	6	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/zVU8PV5i9mKTJtBNIv_2Sg_grids.txt	-0.5978051147026434	-0.5978051147026434
+# Processing file: JLc7cOgmzgim1QlqXdDNuA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5498266712917196	10	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/JLc7cOgmzgim1QlqXdDNuA_grids.txt	-0.5498266712917196	-0.5498266712917196
+# Processing file: 57CfGcN7-j2PYtiFeyJvVQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.525067259436649	8	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/57CfGcN7-j2PYtiFeyJvVQ_grids.txt	-0.525067259436649	-0.525067259436649
+# Processing file: GifRhXPlxytoRkhyEWbqjQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4367924584385053	10	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/GifRhXPlxytoRkhyEWbqjQ_grids.txt	-0.4367924584385053	-0.4367924584385053
+# Processing file: Zbipczs9DnCfIS0zd4dIQQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4500301105150611	14	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Zbipczs9DnCfIS0zd4dIQQ_grids.txt	-0.4500301105150611	-0.4500301105150611
+# Processing file: ApzqwFxKU5rkyu9HFjv5oA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3884448301344109	19	55
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ApzqwFxKU5rkyu9HFjv5oA_grids.txt	-0.3884448301344109	-0.3884448301344109
+# Processing file: kBiywFn-4GolvcbS228MgA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.52970188011863	11	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/kBiywFn-4GolvcbS228MgA_grids.txt	-0.52970188011863	-0.52970188011863
+# Processing file: 7l_NjDwxlotj0kHaltaDkw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6245672260046669	8	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/7l_NjDwxlotj0kHaltaDkw_grids.txt	-0.6245672260046669	-0.6245672260046669
+# Processing file: rInpBVPeEBzCikakDgLUMw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5370301352954114	8	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/rInpBVPeEBzCikakDgLUMw_grids.txt	-0.5370301352954114	-0.5370301352954114
+# Processing file: cDA-6oRM_shHLMdMYHX4pQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47458776204330544	10	49
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/cDA-6oRM_shHLMdMYHX4pQ_grids.txt	-0.47458776204330544	-0.47458776204330544
+# Processing file: Qmxf_shYPiUKhJlu9KZa_g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.42314453124279894	16	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Qmxf_shYPiUKhJlu9KZa_g_grids.txt	-0.42314453124279894	-0.42314453124279894
+# Processing file: 5DaqHKYpSJM1PJmvGGWe9Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5395439704171683	11	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/5DaqHKYpSJM1PJmvGGWe9Q_grids.txt	-0.5395439704171683	-0.5395439704171683
+# Processing file: zCYlhzVURHA6hWZzmpn4bg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.38635248319914944	15	50
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/zCYlhzVURHA6hWZzmpn4bg_grids.txt	-0.38635248319914944	-0.38635248319914944
+# Processing file: D7zYb-8AiNzLAQnvMJpnpQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.44944751045080433	12	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/D7zYb-8AiNzLAQnvMJpnpQ_grids.txt	-0.44944751045080433	-0.44944751045080433
+# Processing file: 9lVNz4q6_wIJUkwXeukJLQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5422061717335701	8	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/9lVNz4q6_wIJUkwXeukJLQ_grids.txt	-0.5422061717335701	-0.5422061717335701
+# Processing file: 979l8tvjgIYEJeWHT_sxGA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5013312102307714	12	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/979l8tvjgIYEJeWHT_sxGA_grids.txt	-0.5013312102307714	-0.5013312102307714
+# Processing file: gx9eABySDxgKb_NXDYjHxw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4811228689533244	10	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/gx9eABySDxgKb_NXDYjHxw_grids.txt	-0.4811228689533244	-0.4811228689533244
+# Processing file: ngpOYX62J3c7nBX7moCzww_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4515026344001321	12	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ngpOYX62J3c7nBX7moCzww_grids.txt	-0.4515026344001321	-0.4515026344001321
+# Processing file: 8vaw9GLH08PmduP3GsJPyQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5815803332227057	11	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/8vaw9GLH08PmduP3GsJPyQ_grids.txt	-0.5815803332227057	-0.5815803332227057
+# Processing file: eE8go8VsA8trl4cIUl0fRA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5630635923857447	8	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/eE8go8VsA8trl4cIUl0fRA_grids.txt	-0.5630635923857447	-0.5630635923857447
+# Processing file: ATEw3l3lf2CrhkbXjz5KqA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47753044197347216	10	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ATEw3l3lf2CrhkbXjz5KqA_grids.txt	-0.47753044197347216	-0.47753044197347216
+# Processing file: l9ZoJFm_4TE0di5rwC2JEA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5262685100017525	8	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/l9ZoJFm_4TE0di5rwC2JEA_grids.txt	-0.5262685100017525	-0.5262685100017525
+# Processing file: 1cYvSiaB1Xa48jTjmL2r8w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5866804134030904	4	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/1cYvSiaB1Xa48jTjmL2r8w_grids.txt	-0.5866804134030904	-0.5866804134030904
+# Processing file: XZbkHGhOo_Pu-ypw4j_bvw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5558099154011626	11	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/XZbkHGhOo_Pu-ypw4j_bvw_grids.txt	-0.5558099154011626	-0.5558099154011626
+# Processing file: LFAeBEC7PQLfzt0w5AWh_w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5363069254848307	9	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/LFAeBEC7PQLfzt0w5AWh_w_grids.txt	-0.5363069254848307	-0.5363069254848307
+# Processing file: zA7yVKjo2RQ_0BaMcrZs7w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.860784580956227	9	9
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/zA7yVKjo2RQ_0BaMcrZs7w_grids.txt	-0.860784580956227	-0.860784580956227
+# Processing file: iA-IDb8dczl6___fyUEsLQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5167153149315387	9	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/iA-IDb8dczl6___fyUEsLQ_grids.txt	-0.5167153149315387	-0.5167153149315387
+# Processing file: P-geQ9s3D1HjjRUQ0aZBxQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6232536484425397	7	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/P-geQ9s3D1HjjRUQ0aZBxQ_grids.txt	-0.6232536484425397	-0.6232536484425397
+# Processing file: tWiUHTkysGwWaQUOvjCQiQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5892977302477255	10	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/tWiUHTkysGwWaQUOvjCQiQ_grids.txt	-0.5892977302477255	-0.5892977302477255
+# Processing file: uKxvEldmDwO63BwHfNlBeg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.41472704404035615	17	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/uKxvEldmDwO63BwHfNlBeg_grids.txt	-0.41472704404035615	-0.41472704404035615
+# Processing file: XOp1WBC0NHSMHRuk_zDpww_grids
+#doc	#logprob	#sentences	#entities
+0	-0.39601405861087313	15	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/XOp1WBC0NHSMHRuk_zDpww_grids.txt	-0.39601405861087313	-0.39601405861087313
+# Processing file: ZLvRXnrzh26O5t7gCFwInA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6158198113504741	7	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ZLvRXnrzh26O5t7gCFwInA_grids.txt	-0.6158198113504741	-0.6158198113504741
+# Processing file: _zEr2qp8sU3eFFoWfH4mTg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48133753853972044	11	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/_zEr2qp8sU3eFFoWfH4mTg_grids.txt	-0.48133753853972044	-0.48133753853972044
+# Processing file: S7PFFLSe8FKsMk63VCvLCg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6333434067774709	7	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/S7PFFLSe8FKsMk63VCvLCg_grids.txt	-0.6333434067774709	-0.6333434067774709
+# Processing file: klQ2f-820NW6nmsYH9LuQg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4757779661513603	17	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/klQ2f-820NW6nmsYH9LuQg_grids.txt	-0.4757779661513603	-0.4757779661513603
+# Processing file: XsFhavj4KZpYy6mBsW5k4Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5551083053937484	6	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/XsFhavj4KZpYy6mBsW5k4Q_grids.txt	-0.5551083053937484	-0.5551083053937484
+# Processing file: SLctk3NALjgmBvHYHvByUA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5161368598924179	8	45
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/SLctk3NALjgmBvHYHvByUA_grids.txt	-0.5161368598924179	-0.5161368598924179
+# Processing file: bIWRD_4W_9VQY2x_5xdqaw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45270802757318457	13	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/bIWRD_4W_9VQY2x_5xdqaw_grids.txt	-0.45270802757318457	-0.45270802757318457
+# Processing file: DRR1bqQKNg6ZAEmcNK0-Ug_grids
+#doc	#logprob	#sentences	#entities
+0	-0.38029521960174634	16	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/DRR1bqQKNg6ZAEmcNK0-Ug_grids.txt	-0.38029521960174634	-0.38029521960174634
+# Processing file: BTLrVXYhqO_QZZ54XBCB_A_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7651835596713011	6	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/BTLrVXYhqO_QZZ54XBCB_A_grids.txt	-0.7651835596713011	-0.7651835596713011
+# Processing file: C9hErWu1k8jCCRCBRFCvWg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.549760078662635	9	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/C9hErWu1k8jCCRCBRFCvWg_grids.txt	-0.549760078662635	-0.549760078662635
+# Processing file: KSU2gGhcfHuXBcqpKq9U_w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.44468133766497536	12	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/KSU2gGhcfHuXBcqpKq9U_w_grids.txt	-0.44468133766497536	-0.44468133766497536
+# Processing file: XDre87Ohl4_zvEzevaLHJQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5694595725994341	8	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/XDre87Ohl4_zvEzevaLHJQ_grids.txt	-0.5694595725994341	-0.5694595725994341
+# Processing file: J1PTjZvCGieme_Jo43NvDg_grids
+#doc	#logprob	#sentences	#entities
+0	-1.1512308237261468	2	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/J1PTjZvCGieme_Jo43NvDg_grids.txt	-1.1512308237261468	-1.1512308237261468
+# Processing file: PnxW9K0tGDTrBWAchge6Iw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4657620197026927	13	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/PnxW9K0tGDTrBWAchge6Iw_grids.txt	-0.4657620197026927	-0.4657620197026927
+# Processing file: OO9T_kjJrlN8Y37EzKR_GQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5345180683964809	8	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/OO9T_kjJrlN8Y37EzKR_GQ_grids.txt	-0.5345180683964809	-0.5345180683964809
+# Processing file: -I1Arja8KXGbZvwH3JQykw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6647415072023081	8	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/-I1Arja8KXGbZvwH3JQykw_grids.txt	-0.6647415072023081	-0.6647415072023081
+# Processing file: 22OeBPD1QiO6OkzaQqNreg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4790209686269779	10	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/22OeBPD1QiO6OkzaQqNreg_grids.txt	-0.4790209686269779	-0.4790209686269779
+# Processing file: jO1DCI8EVZZtsmVMaPAG7Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.43625273064897985	14	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/jO1DCI8EVZZtsmVMaPAG7Q_grids.txt	-0.43625273064897985	-0.43625273064897985
+# Processing file: q6uXJY_QG-qV6zYiAo-WKQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7372338332572568	6	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/q6uXJY_QG-qV6zYiAo-WKQ_grids.txt	-0.7372338332572568	-0.7372338332572568
+# Processing file: zmUo8oLt-OgOxaKG52aepw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5446615998092263	9	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/zmUo8oLt-OgOxaKG52aepw_grids.txt	-0.5446615998092263	-0.5446615998092263
+# Processing file: 1fmKmK3_VSJ6IOV2yxDfVw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.36072749126795284	18	72
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/1fmKmK3_VSJ6IOV2yxDfVw_grids.txt	-0.36072749126795284	-0.36072749126795284
+# Processing file: ljDH75jgyqvA4J5hmWWGxA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.437627440133303	11	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ljDH75jgyqvA4J5hmWWGxA_grids.txt	-0.437627440133303	-0.437627440133303
+# Processing file: EYmFn86eq7XZD4RkOF4Zig_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5227843391562584	7	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/EYmFn86eq7XZD4RkOF4Zig_grids.txt	-0.5227843391562584	-0.5227843391562584
+# Processing file: wP2J_lHyLq649yt07EJnfg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3897284083335087	16	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/wP2J_lHyLq649yt07EJnfg_grids.txt	-0.3897284083335087	-0.3897284083335087
+# Processing file: ZWo3KvNivBmirbNAQVaFJQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45084916475760956	10	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ZWo3KvNivBmirbNAQVaFJQ_grids.txt	-0.45084916475760956	-0.45084916475760956
+# Processing file: 9wVube2g027SUCbai23rqg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.41040753144515535	14	37
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/9wVube2g027SUCbai23rqg_grids.txt	-0.41040753144515535	-0.41040753144515535
+# Processing file: yhZ0swkDryfLlkM9WPMQkw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.38056565460017805	16	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/yhZ0swkDryfLlkM9WPMQkw_grids.txt	-0.38056565460017805	-0.38056565460017805
+# Processing file: 9aadXe1qZdtv0IBr-xbaLg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5304561421796763	11	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/9aadXe1qZdtv0IBr-xbaLg_grids.txt	-0.5304561421796763	-0.5304561421796763
+# Processing file: 7ivVqXrdzDHqUWLU5_oX0Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5103654728563571	10	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/7ivVqXrdzDHqUWLU5_oX0Q_grids.txt	-0.5103654728563571	-0.5103654728563571
+# Processing file: xKP6qqXFCu2hrpIFKpEeqw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5548883117503826	8	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/xKP6qqXFCu2hrpIFKpEeqw_grids.txt	-0.5548883117503826	-0.5548883117503826
+# Processing file: oy0bejXK0lmqgH1NPnBvfw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3623502690158351	24	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/oy0bejXK0lmqgH1NPnBvfw_grids.txt	-0.3623502690158351	-0.3623502690158351
+# Processing file: 3Hasa1b9v_CHmxWV4L7BAg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5863411996390443	7	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/3Hasa1b9v_CHmxWV4L7BAg_grids.txt	-0.5863411996390443	-0.5863411996390443
+# Processing file: AZlmav3EtfbZu_5BIF0RMA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5022238609526913	14	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/AZlmav3EtfbZu_5BIF0RMA_grids.txt	-0.5022238609526913	-0.5022238609526913
+# Processing file: 6GxsqURup3yP9_SWl6Z4Ow_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4764909331783391	9	53
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/6GxsqURup3yP9_SWl6Z4Ow_grids.txt	-0.4764909331783391	-0.4764909331783391
+# Processing file: eXqFXV7IkHzo4XOOUx14FA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5322265227091163	9	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/eXqFXV7IkHzo4XOOUx14FA_grids.txt	-0.5322265227091163	-0.5322265227091163
+# Processing file: 4Bpe8G4nxbYMgSqZ0_24ug_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5637314746482217	10	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/4Bpe8G4nxbYMgSqZ0_24ug_grids.txt	-0.5637314746482217	-0.5637314746482217
+# Processing file: 6cguyMF27761uk2GPAyk8A_grids
+#doc	#logprob	#sentences	#entities
+0	-0.588913762670015	8	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/6cguyMF27761uk2GPAyk8A_grids.txt	-0.588913762670015	-0.588913762670015
+# Processing file: kQkFa4cRSGD3SsBV2CQdfg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5464265450081388	11	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/kQkFa4cRSGD3SsBV2CQdfg_grids.txt	-0.5464265450081388	-0.5464265450081388
+# Processing file: 40fxk9sDmyhh7S6V6Uuimg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5835781036777742	9	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/40fxk9sDmyhh7S6V6Uuimg_grids.txt	-0.5835781036777742	-0.5835781036777742
+# Processing file: UJqJWussgZavisFOWic4RA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5211079421353557	9	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/UJqJWussgZavisFOWic4RA_grids.txt	-0.5211079421353557	-0.5211079421353557
+# Processing file: Uf5NdZp-hS3m6shR9guTxg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4479702314689364	12	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Uf5NdZp-hS3m6shR9guTxg_grids.txt	-0.4479702314689364	-0.4479702314689364
+# Processing file: tzCb3rppgABWcc_w0wBuRg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.38846535085971423	14	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/tzCb3rppgABWcc_w0wBuRg_grids.txt	-0.38846535085971423	-0.38846535085971423
+# Processing file: LSZ0KpYhYUlgGINOt-vkzg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3686175608467691	13	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/LSZ0KpYhYUlgGINOt-vkzg_grids.txt	-0.3686175608467691	-0.3686175608467691
+# Processing file: OXOVo3ZY6XE_k08gha2nXA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.586775150331244	8	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/OXOVo3ZY6XE_k08gha2nXA_grids.txt	-0.586775150331244	-0.586775150331244
+# Processing file: 4DrOVgI9rdBFb67kZ26miw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5935776482052953	8	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/4DrOVgI9rdBFb67kZ26miw_grids.txt	-0.5935776482052953	-0.5935776482052953
+# Processing file: W3MDuJxHknuMVy9FFCJlmQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.499661569946666	9	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/W3MDuJxHknuMVy9FFCJlmQ_grids.txt	-0.499661569946666	-0.499661569946666
+# Processing file: 4UKK8UFUm7BwV5VFbLuM1w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5154778254376593	10	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/4UKK8UFUm7BwV5VFbLuM1w_grids.txt	-0.5154778254376593	-0.5154778254376593
+# Processing file: sB-Lx1QF2hI8yQpb_SdINA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5160049584066605	9	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/sB-Lx1QF2hI8yQpb_SdINA_grids.txt	-0.5160049584066605	-0.5160049584066605
+# Processing file: 9v5rO2uA40CDg6t3y9vkow_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5711504754485497	8	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/9v5rO2uA40CDg6t3y9vkow_grids.txt	-0.5711504754485497	-0.5711504754485497
+# Processing file: KXR5RACA65fbr4j5w-H3BQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.567744431620102	7	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/KXR5RACA65fbr4j5w-H3BQ_grids.txt	-0.567744431620102	-0.567744431620102
+# Processing file: WQ1FLCdvu6_ZVZrXTQ7XRw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.46245729513659567	10	37
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/WQ1FLCdvu6_ZVZrXTQ7XRw_grids.txt	-0.46245729513659567	-0.46245729513659567
+# Processing file: FVtdxl-r1fPuTkFPQO1rVw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4665738663592681	11	37
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/FVtdxl-r1fPuTkFPQO1rVw_grids.txt	-0.4665738663592681	-0.4665738663592681
+# Processing file: bc0dLKd-9LYrRK9GmmWmXg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4891901653860536	10	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/bc0dLKd-9LYrRK9GmmWmXg_grids.txt	-0.4891901653860536	-0.4891901653860536
+# Processing file: DBXr5KdvryAWWUKO7Ma9dw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6718020422489165	8	8
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/DBXr5KdvryAWWUKO7Ma9dw_grids.txt	-0.6718020422489165	-0.6718020422489165
+# Processing file: LDwYlwWSDrZGGhdOG-pllQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.43893020703291097	10	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/LDwYlwWSDrZGGhdOG-pllQ_grids.txt	-0.43893020703291097	-0.43893020703291097
+# Processing file: 5NYPA5XdQVovDVjLWZdPqQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5335413086976982	8	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/5NYPA5XdQVovDVjLWZdPqQ_grids.txt	-0.5335413086976982	-0.5335413086976982
+# Processing file: ZnRAK1Xy2DAEWk_oQeZUew_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3986147803692455	16	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ZnRAK1Xy2DAEWk_oQeZUew_grids.txt	-0.3986147803692455	-0.3986147803692455
+# Processing file: Sxs3PuHMQ-AydVPUr1GBZA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7891035238848331	6	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Sxs3PuHMQ-AydVPUr1GBZA_grids.txt	-0.7891035238848331	-0.7891035238848331
+# Processing file: QCWE97QqDTtg7HJ6nFnXnA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45891840902136843	13	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/QCWE97QqDTtg7HJ6nFnXnA_grids.txt	-0.45891840902136843	-0.45891840902136843
+# Processing file: ahF7oKprvUYv3At5gEQ45w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5643654229699737	8	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ahF7oKprvUYv3At5gEQ45w_grids.txt	-0.5643654229699737	-0.5643654229699737
+# Processing file: nHZXr986FeOW9d-eKzW-uw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5194283980541696	9	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/nHZXr986FeOW9d-eKzW-uw_grids.txt	-0.5194283980541696	-0.5194283980541696
+# Processing file: WekLyZ_jGhbwag8rduP_lA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6221838281579117	8	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/WekLyZ_jGhbwag8rduP_lA_grids.txt	-0.6221838281579117	-0.6221838281579117
+# Processing file: 2SuNXvsMAnOS-dOaHIyvRw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4729081072366537	12	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/2SuNXvsMAnOS-dOaHIyvRw_grids.txt	-0.4729081072366537	-0.4729081072366537
+# Processing file: UgFxfn9WXncZ4C1qs95RmA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4485837497094516	12	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/UgFxfn9WXncZ4C1qs95RmA_grids.txt	-0.4485837497094516	-0.4485837497094516
+# Processing file: 2r0XqX1Db-NnRPiq9XMcRQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5876836092513306	7	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/2r0XqX1Db-NnRPiq9XMcRQ_grids.txt	-0.5876836092513306	-0.5876836092513306
+# Processing file: T9swH7xnizGI1ZAn2_1PGg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5312405009541605	12	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/T9swH7xnizGI1ZAn2_1PGg_grids.txt	-0.5312405009541605	-0.5312405009541605
+# Processing file: TqJNEtjKqx_tMNgPbe7VpA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.43575150379582267	11	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/TqJNEtjKqx_tMNgPbe7VpA_grids.txt	-0.43575150379582267	-0.43575150379582267
+# Processing file: XHKpyYQ897Gb1ffQGSXpbA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4549786537826433	15	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/XHKpyYQ897Gb1ffQGSXpbA_grids.txt	-0.4549786537826433	-0.4549786537826433
+# Processing file: F8Sib-KcHxFI9nG1afB84g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5908893289995043	7	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/F8Sib-KcHxFI9nG1afB84g_grids.txt	-0.5908893289995043	-0.5908893289995043
+# Processing file: kqexK4Lo6XIxCwPM8GniXw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4402584661789458	12	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/kqexK4Lo6XIxCwPM8GniXw_grids.txt	-0.4402584661789458	-0.4402584661789458
+# Processing file: cxpFOKt_jfXxzi6fMKwjoQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7276745166669727	4	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/cxpFOKt_jfXxzi6fMKwjoQ_grids.txt	-0.7276745166669727	-0.7276745166669727
+# Processing file: r5tX2mEOYxFW_FzHjG3YbA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47166873001674614	10	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/r5tX2mEOYxFW_FzHjG3YbA_grids.txt	-0.47166873001674614	-0.47166873001674614
+# Processing file: NWzLuyTIk7eXCRDHgqJLzg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.69204245549578	5	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/NWzLuyTIk7eXCRDHgqJLzg_grids.txt	-0.69204245549578	-0.69204245549578
+# Processing file: XqR5QMe3GQeh8VnCViqFkA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5484694231760666	6	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/XqR5QMe3GQeh8VnCViqFkA_grids.txt	-0.5484694231760666	-0.5484694231760666
+# Processing file: j6fecH_D2ce-DLEm3VKakQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5132504051232144	12	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/j6fecH_D2ce-DLEm3VKakQ_grids.txt	-0.5132504051232144	-0.5132504051232144
+# Processing file: DdNguO0pzUvHR_6SW2xTkg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4591891238691274	12	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/DdNguO0pzUvHR_6SW2xTkg_grids.txt	-0.4591891238691274	-0.4591891238691274
+# Processing file: ToaH1r1K4mDJWF6r4cZNJg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.43225500336351996	13	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ToaH1r1K4mDJWF6r4cZNJg_grids.txt	-0.43225500336351996	-0.43225500336351996
+# Processing file: 1jBVUPzzcF_7F15rsQi7NQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4462723091436427	9	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/1jBVUPzzcF_7F15rsQi7NQ_grids.txt	-0.4462723091436427	-0.4462723091436427
+# Processing file: MCCbEtg58ze8VL-EITFu4g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6084648289841698	8	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/MCCbEtg58ze8VL-EITFu4g_grids.txt	-0.6084648289841698	-0.6084648289841698
+# Processing file: -Aw8BAt08nv5nwrWjHkmSA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6323577514087675	11	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/-Aw8BAt08nv5nwrWjHkmSA_grids.txt	-0.6323577514087675	-0.6323577514087675
+# Processing file: mjYus-iLdgubSWHw8m5W7w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.462829530760364	9	50
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/mjYus-iLdgubSWHw8m5W7w_grids.txt	-0.462829530760364	-0.462829530760364
+# Processing file: ScLPr1fUtc9fOnr1vJuhxQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6027088463957289	8	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ScLPr1fUtc9fOnr1vJuhxQ_grids.txt	-0.6027088463957289	-0.6027088463957289
+# Processing file: bciKPDdp3OpdH3dImArYMQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5611179421257159	9	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/bciKPDdp3OpdH3dImArYMQ_grids.txt	-0.5611179421257159	-0.5611179421257159
+# Processing file: pIyaIJdVa_Kl8vebITpIew_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6040248231508898	8	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/pIyaIJdVa_Kl8vebITpIew_grids.txt	-0.6040248231508898	-0.6040248231508898
+# Processing file: b_xGkXI1griSm5lhvZVXTg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4955389528221572	9	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/b_xGkXI1griSm5lhvZVXTg_grids.txt	-0.4955389528221572	-0.4955389528221572
+# Processing file: bgD3UWo_jdGNccwsQwmNsQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.44112271123414276	12	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/bgD3UWo_jdGNccwsQwmNsQ_grids.txt	-0.44112271123414276	-0.44112271123414276
+# Processing file: hOG2QomA5ZdDExBUGZS2-Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.563679697351052	13	16
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/hOG2QomA5ZdDExBUGZS2-Q_grids.txt	-0.563679697351052	-0.563679697351052
+# Processing file: 1cQoCOsiWqPnB05wO-fmVQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47499772275406266	10	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/1cQoCOsiWqPnB05wO-fmVQ_grids.txt	-0.47499772275406266	-0.47499772275406266
+# Processing file: TFcEaCCJZAuz7z8mOAItiA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4425611878768477	9	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/TFcEaCCJZAuz7z8mOAItiA_grids.txt	-0.4425611878768477	-0.4425611878768477
+# Processing file: SxXicwdD_INOHVYwUEqmzQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.505477707387634	9	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/SxXicwdD_INOHVYwUEqmzQ_grids.txt	-0.505477707387634	-0.505477707387634
+# Processing file: 7SNf-EY_bbE2Md4BOiS-iQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5339063897139771	10	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/7SNf-EY_bbE2Md4BOiS-iQ_grids.txt	-0.5339063897139771	-0.5339063897139771
+# Processing file: 37lrwoFupAFwvLnL43T8bA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.42478519394020164	12	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/37lrwoFupAFwvLnL43T8bA_grids.txt	-0.42478519394020164	-0.42478519394020164
+# Processing file: Vb-5kRwtj0e7HcYeuaBzYg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.461254248467658	12	44
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Vb-5kRwtj0e7HcYeuaBzYg_grids.txt	-0.461254248467658	-0.461254248467658
+# Processing file: ESRv3Lqw8r0tMF5O0fjUCw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5022074966861211	10	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ESRv3Lqw8r0tMF5O0fjUCw_grids.txt	-0.5022074966861211	-0.5022074966861211
+# Processing file: XM4AiCPsvCP9rLe5uoPVfQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.375920684986249	21	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/XM4AiCPsvCP9rLe5uoPVfQ_grids.txt	-0.375920684986249	-0.375920684986249
+# Processing file: oESTJSMAjhJ_8qehHx3J0w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5493383910062396	9	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/oESTJSMAjhJ_8qehHx3J0w_grids.txt	-0.5493383910062396	-0.5493383910062396
+# Processing file: h4sw6JkSGNqHafPVcgZgVw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5073990805558729	7	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/h4sw6JkSGNqHafPVcgZgVw_grids.txt	-0.5073990805558729	-0.5073990805558729
+# Processing file: 9d_uGJJkZ7P8gTblJCSRiw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48219687699477465	10	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/9d_uGJJkZ7P8gTblJCSRiw_grids.txt	-0.48219687699477465	-0.48219687699477465
+# Processing file: RbmYdagTMs5qRFNakLwSfA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45328845347431984	11	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/RbmYdagTMs5qRFNakLwSfA_grids.txt	-0.45328845347431984	-0.45328845347431984
+# Processing file: biPjej6C7bN-qvwT6Mex6w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5385996195326956	8	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/biPjej6C7bN-qvwT6Mex6w_grids.txt	-0.5385996195326956	-0.5385996195326956
+# Processing file: AduRtvntzmTG9Jl2ld6e0Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48821216135596407	10	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/AduRtvntzmTG9Jl2ld6e0Q_grids.txt	-0.48821216135596407	-0.48821216135596407
+# Processing file: jnYhqz6a-E_6YvrcLzGMcw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5097803527568778	10	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/jnYhqz6a-E_6YvrcLzGMcw_grids.txt	-0.5097803527568778	-0.5097803527568778
+# Processing file: NiONdcLm2zDKxbEjl0FTwA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.582044293089915	9	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/NiONdcLm2zDKxbEjl0FTwA_grids.txt	-0.582044293089915	-0.582044293089915
+# Processing file: Sw6mWDlle2kwKBGdF5HmfQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.457184857478265	9	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Sw6mWDlle2kwKBGdF5HmfQ_grids.txt	-0.457184857478265	-0.457184857478265
+# Processing file: cKUOFdtOGqjXITze8YHi9Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4247568693324393	14	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/cKUOFdtOGqjXITze8YHi9Q_grids.txt	-0.4247568693324393	-0.4247568693324393
+# Processing file: viWciVFlio9jqs3XSvfuaA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5567728401779779	9	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/viWciVFlio9jqs3XSvfuaA_grids.txt	-0.5567728401779779	-0.5567728401779779
+# Processing file: vLSi8gVxcotSIl_v88rQcA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4531003267956452	13	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/vLSi8gVxcotSIl_v88rQcA_grids.txt	-0.4531003267956452	-0.4531003267956452
+# Processing file: ZNEtFf5Ms2tdr2GqTQyi1g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5134033605763697	9	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ZNEtFf5Ms2tdr2GqTQyi1g_grids.txt	-0.5134033605763697	-0.5134033605763697
+# Processing file: 9hqqIyiRzV_XA_wB6BMyMQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49591862900566364	10	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/9hqqIyiRzV_XA_wB6BMyMQ_grids.txt	-0.49591862900566364	-0.49591862900566364
+# Processing file: ArTLKDrMsBRp6-V52W6-6A_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6958573049640733	8	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ArTLKDrMsBRp6-V52W6-6A_grids.txt	-0.6958573049640733	-0.6958573049640733
+# Processing file: GsVeNJA1T-NOJ5GAgDRORg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4654283195873455	10	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/GsVeNJA1T-NOJ5GAgDRORg_grids.txt	-0.4654283195873455	-0.4654283195873455
+# Processing file: Jl8Wda1EMHCel1xSeMp4KQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5375802195395727	11	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Jl8Wda1EMHCel1xSeMp4KQ_grids.txt	-0.5375802195395727	-0.5375802195395727
+# Processing file: WJXHBUQRpwAmVo0wwyAGaw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5215079697855031	11	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/WJXHBUQRpwAmVo0wwyAGaw_grids.txt	-0.5215079697855031	-0.5215079697855031
+# Processing file: Wkrvjvo1_l1PiKMOLieiBw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5290835303096304	10	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Wkrvjvo1_l1PiKMOLieiBw_grids.txt	-0.5290835303096304	-0.5290835303096304
+# Processing file: 638jKaVp4VtbOJl8gKuBsg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5192396406559586	8	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/638jKaVp4VtbOJl8gKuBsg_grids.txt	-0.5192396406559586	-0.5192396406559586
+# Processing file: xgFVNQCYc6hgho-hzPWyOA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4177194379150585	16	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/xgFVNQCYc6hgho-hzPWyOA_grids.txt	-0.4177194379150585	-0.4177194379150585
+# Processing file: 1CpDgSzeGxpo5DM9MRZXsQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7441767345828849	6	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/1CpDgSzeGxpo5DM9MRZXsQ_grids.txt	-0.7441767345828849	-0.7441767345828849
+# Processing file: exy99i_b8uECj6_mh6Oz7g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4612207128894915	14	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/exy99i_b8uECj6_mh6Oz7g_grids.txt	-0.4612207128894915	-0.4612207128894915
+# Processing file: 3bFYB6923ySeFsNJ7_oN7Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4807912589077655	11	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/3bFYB6923ySeFsNJ7_oN7Q_grids.txt	-0.4807912589077655	-0.4807912589077655
+# Processing file: zY7Ddgfh9QtZLJf5tlhzhw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5249059680229088	6	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/zY7Ddgfh9QtZLJf5tlhzhw_grids.txt	-0.5249059680229088	-0.5249059680229088
+# Processing file: F3gGECYo4o0SldUCFBRq-Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6802129363909389	7	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/F3gGECYo4o0SldUCFBRq-Q_grids.txt	-0.6802129363909389	-0.6802129363909389
+# Processing file: G09_yFukFtV077gs1L_4GQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5963827343000702	7	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/G09_yFukFtV077gs1L_4GQ_grids.txt	-0.5963827343000702	-0.5963827343000702
+# Processing file: RiCWRP1-qJCWZcQf_kPkLQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49036187879384335	11	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/RiCWRP1-qJCWZcQf_kPkLQ_grids.txt	-0.49036187879384335	-0.49036187879384335
+# Processing file: ofLaA36f19HXGXikZqC5jg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.545836221260448	8	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ofLaA36f19HXGXikZqC5jg_grids.txt	-0.545836221260448	-0.545836221260448
+# Processing file: ogUpAbhctrdUJ4T8DKTBmQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7203497437584704	6	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ogUpAbhctrdUJ4T8DKTBmQ_grids.txt	-0.7203497437584704	-0.7203497437584704
+# Processing file: 1QAE1djvFPgUnMPGSxSn6w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4492015109570048	9	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/1QAE1djvFPgUnMPGSxSn6w_grids.txt	-0.4492015109570048	-0.4492015109570048
+# Processing file: 60ounadBwcU6ZSbS5EZBfA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.41989408629972086	16	44
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/60ounadBwcU6ZSbS5EZBfA_grids.txt	-0.41989408629972086	-0.41989408629972086
+# Processing file: Iw9KI31ZEYbUNxSaMkmdVw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6262877025603466	8	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Iw9KI31ZEYbUNxSaMkmdVw_grids.txt	-0.6262877025603466	-0.6262877025603466
+# Processing file: Tca6wuqV_ifS4RqK6Kd34A_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6213733236227226	7	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Tca6wuqV_ifS4RqK6Kd34A_grids.txt	-0.6213733236227226	-0.6213733236227226
+# Processing file: bm8nWWN2ASuAVRZ6gyv1Wg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5263217163221295	8	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/bm8nWWN2ASuAVRZ6gyv1Wg_grids.txt	-0.5263217163221295	-0.5263217163221295
+# Processing file: kq4fs7Q7JDsPmELYWqGbQw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5637614384226385	6	54
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/kq4fs7Q7JDsPmELYWqGbQw_grids.txt	-0.5637614384226385	-0.5637614384226385
+# Processing file: iHK_vPVC7fUFuglRFjDggw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5339707162600161	10	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/iHK_vPVC7fUFuglRFjDggw_grids.txt	-0.5339707162600161	-0.5339707162600161
+# Processing file: DWJ3H3z_bB-pZfObDaro_A_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6072598749871126	6	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/DWJ3H3z_bB-pZfObDaro_A_grids.txt	-0.6072598749871126	-0.6072598749871126
+# Processing file: 12ZGjTtgD14MLVnBrQlvBw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7259114684282423	6	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/12ZGjTtgD14MLVnBrQlvBw_grids.txt	-0.7259114684282423	-0.7259114684282423
+# Processing file: y8oazOqHFuYuLsrmKFfa-g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4686440091061463	11	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/y8oazOqHFuYuLsrmKFfa-g_grids.txt	-0.4686440091061463	-0.4686440091061463
+# Processing file: CJcyv591XyGsDE_ituC0mg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4208719175854679	16	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/CJcyv591XyGsDE_ituC0mg_grids.txt	-0.4208719175854679	-0.4208719175854679
+# Processing file: J31onYZ75C1MdL-JNkL2DQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5763251257435229	8	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/J31onYZ75C1MdL-JNkL2DQ_grids.txt	-0.5763251257435229	-0.5763251257435229
+# Processing file: PmU1Ob2xGBzk5OWwm4bwKw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.42371101051777904	14	43
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/PmU1Ob2xGBzk5OWwm4bwKw_grids.txt	-0.42371101051777904	-0.42371101051777904
+# Processing file: 54YD32GLga7JAdjs3Igpew_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4410074941424305	13	65
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/54YD32GLga7JAdjs3Igpew_grids.txt	-0.4410074941424305	-0.4410074941424305
+# Processing file: b45gy8Z-vASJO9nwQyC1gQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5165208303944736	10	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/b45gy8Z-vASJO9nwQyC1gQ_grids.txt	-0.5165208303944736	-0.5165208303944736
+# Processing file: C8t5pKNfzpdaH8YSFDVEpQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47864108048032405	11	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/C8t5pKNfzpdaH8YSFDVEpQ_grids.txt	-0.47864108048032405	-0.47864108048032405
+# Processing file: pJXQOt2RmXgj1PrimW96fA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3836321952309752	11	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/pJXQOt2RmXgj1PrimW96fA_grids.txt	-0.3836321952309752	-0.3836321952309752
+# Processing file: s59B3zmgo5aZDhYqOBMsNg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.46951142352494507	14	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/s59B3zmgo5aZDhYqOBMsNg_grids.txt	-0.46951142352494507	-0.46951142352494507
+# Processing file: zmFn_KhpZPFsvz6Zp9_ogw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4161870084267018	13	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/zmFn_KhpZPFsvz6Zp9_ogw_grids.txt	-0.4161870084267018	-0.4161870084267018
+# Processing file: 3j48Urx6X5Ak-6S3FPSKjA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.37213410478431236	18	48
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/3j48Urx6X5Ak-6S3FPSKjA_grids.txt	-0.37213410478431236	-0.37213410478431236
+# Processing file: 6-q8aj2Tq_QUUsTP3k_08A_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47242830063830643	11	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/6-q8aj2Tq_QUUsTP3k_08A_grids.txt	-0.47242830063830643	-0.47242830063830643
+# Processing file: NmQm_Hul1qS4WoeF1rvhdQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5125770536896872	11	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/NmQm_Hul1qS4WoeF1rvhdQ_grids.txt	-0.5125770536896872	-0.5125770536896872
+# Processing file: f-gK5s0YnBUKacieqvEB2w_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5586789566456243	14	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/f-gK5s0YnBUKacieqvEB2w_grids.txt	-0.5586789566456243	-0.5586789566456243
+# Processing file: dH5lp9Ztqnk8a5G_8z1aiQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5309190358898771	7	54
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/dH5lp9Ztqnk8a5G_8z1aiQ_grids.txt	-0.5309190358898771	-0.5309190358898771
+# Processing file: r2sPTv6_1ejRiOG-czhe2Q_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5412376370071255	8	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/r2sPTv6_1ejRiOG-czhe2Q_grids.txt	-0.5412376370071255	-0.5412376370071255
+# Processing file: nZYFnKkWBzH98ESC3rp5uQ_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5383567987085608	11	47
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/nZYFnKkWBzH98ESC3rp5uQ_grids.txt	-0.5383567987085608	-0.5383567987085608
+# Processing file: Ld1-4STmN0Qe-xVyX5N8Iw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4990206051225475	11	51
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Ld1-4STmN0Qe-xVyX5N8Iw_grids.txt	-0.4990206051225475	-0.4990206051225475
+# Processing file: Gshw2Tc8UT2gJn3Xks3TJw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4884723551148853	10	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/Gshw2Tc8UT2gJn3Xks3TJw_grids.txt	-0.4884723551148853	-0.4884723551148853
+# Processing file: 72CJH5x4iQZIEH-INl6rgw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.44110625388164915	13	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/72CJH5x4iQZIEH-INl6rgw_grids.txt	-0.44110625388164915	-0.44110625388164915
+# Processing file: 8omL8tvpc_y3smxByLUn9g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4948945084856313	11	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/8omL8tvpc_y3smxByLUn9g_grids.txt	-0.4948945084856313	-0.4948945084856313
+# Processing file: CJ1uc0INGc4ktyd64ulKgA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5030356598230924	11	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/CJ1uc0INGc4ktyd64ulKgA_grids.txt	-0.5030356598230924	-0.5030356598230924
+# Processing file: ZG_fo3doBo3kaeW3a0Yrkg_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6595208855193964	7	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/ZG_fo3doBo3kaeW3a0Yrkg_grids.txt	-0.6595208855193964	-0.6595208855193964
+# Processing file: POID_EJrzJctOp3RODRY8g_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5403471599683422	12	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/POID_EJrzJctOp3RODRY8g_grids.txt	-0.5403471599683422	-0.5403471599683422
+# Processing file: r9WycsZU4Njz_CA3lp3DhA_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48970068210555806	11	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/r9WycsZU4Njz_CA3lp3DhA_grids.txt	-0.48970068210555806	-0.48970068210555806
+# Processing file: fPTTH4FdpF-Bz7yI4eUoGw_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5086663674844143	9	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/yelp/yelp_test_grids/fPTTH4FdpF-Bz7yI4eUoGw_grids.txt	-0.5086663674844143	-0.5086663674844143

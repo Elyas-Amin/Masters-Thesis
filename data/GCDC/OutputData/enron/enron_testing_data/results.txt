@@ -1,0 +1,801 @@
+#file	#sum	#mean
+# Processing file: 743370_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5289878759144212	10	51
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/743370_grids.txt	-0.5289878759144212	-0.5289878759144212
+# Processing file: 1353855_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6252135706691634	8	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1353855_grids.txt	-0.6252135706691634	-0.6252135706691634
+# Processing file: 1256360_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4214217272507947	17	56
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1256360_grids.txt	-0.4214217272507947	-0.4214217272507947
+# Processing file: 107118_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49146366596464935	10	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/107118_grids.txt	-0.49146366596464935	-0.49146366596464935
+# Processing file: 292035_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5810170539234201	9	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/292035_grids.txt	-0.5810170539234201	-0.5810170539234201
+# Processing file: 900719_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6684475026477376	5	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/900719_grids.txt	-0.6684475026477376	-0.6684475026477376
+# Processing file: 776304_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3994289932212221	3	54
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/776304_grids.txt	-0.3994289932212221	-0.3994289932212221
+# Processing file: 759311_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5600397478739243	7	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/759311_grids.txt	-0.5600397478739243	-0.5600397478739243
+# Processing file: 1108647_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5302472511222592	11	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1108647_grids.txt	-0.5302472511222592	-0.5302472511222592
+# Processing file: 276672_grids
+#doc	#logprob	#sentences	#entities
+0	-0.523280860049061	9	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/276672_grids.txt	-0.523280860049061	-0.523280860049061
+# Processing file: 892969_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5251098451175232	8	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/892969_grids.txt	-0.5251098451175232	-0.5251098451175232
+# Processing file: 873802_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7057730220792319	5	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/873802_grids.txt	-0.7057730220792319	-0.7057730220792319
+# Processing file: 1139245_grids
+#doc	#logprob	#sentences	#entities
+0	-0.532759994782506	9	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1139245_grids.txt	-0.532759994782506	-0.532759994782506
+# Processing file: 3164_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3503495683183551	32	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/3164_grids.txt	-0.3503495683183551	-0.3503495683183551
+# Processing file: 1114461_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4368610549384261	14	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1114461_grids.txt	-0.4368610549384261	-0.4368610549384261
+# Processing file: 1336569_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5809818234514168	9	47
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1336569_grids.txt	-0.5809818234514168	-0.5809818234514168
+# Processing file: 1313342_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7266932495120789	5	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1313342_grids.txt	-0.7266932495120789	-0.7266932495120789
+# Processing file: 1351528_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7296274076098302	6	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1351528_grids.txt	-0.7296274076098302	-0.7296274076098302
+# Processing file: 900839_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6726177697361333	6	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/900839_grids.txt	-0.6726177697361333	-0.6726177697361333
+# Processing file: 1303812_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5917566181564093	8	44
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1303812_grids.txt	-0.5917566181564093	-0.5917566181564093
+# Processing file: 1303171_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5996903501599234	10	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1303171_grids.txt	-0.5996903501599234	-0.5996903501599234
+# Processing file: 62687_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5093208283705183	12	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/62687_grids.txt	-0.5093208283705183	-0.5093208283705183
+# Processing file: 1260886_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6048853562851867	15	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1260886_grids.txt	-0.6048853562851867	-0.6048853562851867
+# Processing file: 1259788_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5754279869358323	7	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1259788_grids.txt	-0.5754279869358323	-0.5754279869358323
+# Processing file: 1116091_grids
+#doc	#logprob	#sentences	#entities
+0	-0.38961805360240437	19	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1116091_grids.txt	-0.38961805360240437	-0.38961805360240437
+# Processing file: 1359343_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6030404151250085	7	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1359343_grids.txt	-0.6030404151250085	-0.6030404151250085
+# Processing file: 30071_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5211929247156237	8	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/30071_grids.txt	-0.5211929247156237	-0.5211929247156237
+# Processing file: 743563_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6902027285102141	9	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/743563_grids.txt	-0.6902027285102141	-0.6902027285102141
+# Processing file: 1112086_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6430700700251224	5	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1112086_grids.txt	-0.6430700700251224	-0.6430700700251224
+# Processing file: 56955_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4606499411153159	12	53
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/56955_grids.txt	-0.4606499411153159	-0.4606499411153159
+# Processing file: 773643_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4754329054254625	13	55
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/773643_grids.txt	-0.4754329054254625	-0.4754329054254625
+# Processing file: 742810_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4992704775163643	12	45
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/742810_grids.txt	-0.4992704775163643	-0.4992704775163643
+# Processing file: 1253155_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7130548804037747	9	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1253155_grids.txt	-0.7130548804037747	-0.7130548804037747
+# Processing file: 1034017_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7093900986075573	6	49
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1034017_grids.txt	-0.7093900986075573	-0.7093900986075573
+# Processing file: 39353_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4993296018866349	12	37
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/39353_grids.txt	-0.4993296018866349	-0.4993296018866349
+# Processing file: 721260_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5797730304415369	7	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/721260_grids.txt	-0.5797730304415369	-0.5797730304415369
+# Processing file: 897762_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6265993666841324	7	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/897762_grids.txt	-0.6265993666841324	-0.6265993666841324
+# Processing file: 1262539_grids
+#doc	#logprob	#sentences	#entities
+0	-0.552988329180422	9	11
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1262539_grids.txt	-0.552988329180422	-0.552988329180422
+# Processing file: 1303025_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4936374021649366	11	78
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1303025_grids.txt	-0.4936374021649366	-0.4936374021649366
+# Processing file: 738934_grids
+#doc	#logprob	#sentences	#entities
+0	-0.44790906497451943	18	11
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/738934_grids.txt	-0.44790906497451943	-0.44790906497451943
+# Processing file: 1105714_grids
+#doc	#logprob	#sentences	#entities
+0	-0.791764746390599	3	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1105714_grids.txt	-0.791764746390599	-0.791764746390599
+# Processing file: 69650_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6596725987531868	9	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/69650_grids.txt	-0.6596725987531868	-0.6596725987531868
+# Processing file: 1251040_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5861975535670011	10	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1251040_grids.txt	-0.5861975535670011	-0.5861975535670011
+# Processing file: 759142_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4145840638887331	16	50
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/759142_grids.txt	-0.4145840638887331	-0.4145840638887331
+# Processing file: 1309439_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7087371653082299	5	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1309439_grids.txt	-0.7087371653082299	-0.7087371653082299
+# Processing file: 58225_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48549060110257014	9	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/58225_grids.txt	-0.48549060110257014	-0.48549060110257014
+# Processing file: 722508_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5524180497547305	10	56
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/722508_grids.txt	-0.5524180497547305	-0.5524180497547305
+# Processing file: 1130230_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4837599246569693	11	50
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1130230_grids.txt	-0.4837599246569693	-0.4837599246569693
+# Processing file: 1307141_grids
+#doc	#logprob	#sentences	#entities
+0	-0.563239938240314	7	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1307141_grids.txt	-0.563239938240314	-0.563239938240314
+# Processing file: 275635_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5702935916984524	10	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/275635_grids.txt	-0.5702935916984524	-0.5702935916984524
+# Processing file: 41399_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5243791859856647	8	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/41399_grids.txt	-0.5243791859856647	-0.5243791859856647
+# Processing file: 34442_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4230017684596617	16	60
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/34442_grids.txt	-0.4230017684596617	-0.4230017684596617
+# Processing file: 1311794_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49631390954770455	11	50
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1311794_grids.txt	-0.49631390954770455	-0.49631390954770455
+# Processing file: 764769_grids
+#doc	#logprob	#sentences	#entities
+0	-0.711568289484982	10	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/764769_grids.txt	-0.711568289484982	-0.711568289484982
+# Processing file: 1257895_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4012325157221371	19	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1257895_grids.txt	-0.4012325157221371	-0.4012325157221371
+# Processing file: 1275250_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4342486024707304	14	46
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1275250_grids.txt	-0.4342486024707304	-0.4342486024707304
+# Processing file: 748332_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5466868731572974	9	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/748332_grids.txt	-0.5466868731572974	-0.5466868731572974
+# Processing file: 684979_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7204313828463562	7	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/684979_grids.txt	-0.7204313828463562	-0.7204313828463562
+# Processing file: 69146_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48418140318939823	11	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/69146_grids.txt	-0.48418140318939823	-0.48418140318939823
+# Processing file: 63520_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4158439394183493	15	47
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/63520_grids.txt	-0.4158439394183493	-0.4158439394183493
+# Processing file: 1259103_grids
+#doc	#logprob	#sentences	#entities
+0	-0.9442443159014673	3	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1259103_grids.txt	-0.9442443159014673	-0.9442443159014673
+# Processing file: 275664_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5646260371448675	6	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/275664_grids.txt	-0.5646260371448675	-0.5646260371448675
+# Processing file: 743344_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6871790220222926	6	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/743344_grids.txt	-0.6871790220222926	-0.6871790220222926
+# Processing file: 765046_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48787391767376037	13	55
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/765046_grids.txt	-0.48787391767376037	-0.48787391767376037
+# Processing file: 80678_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5599163092024877	8	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/80678_grids.txt	-0.5599163092024877	-0.5599163092024877
+# Processing file: 1259319_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5688412729951747	6	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1259319_grids.txt	-0.5688412729951747	-0.5688412729951747
+# Processing file: 57899_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5372189733593772	6	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/57899_grids.txt	-0.5372189733593772	-0.5372189733593772
+# Processing file: 682756_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6710861520266316	8	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/682756_grids.txt	-0.6710861520266316	-0.6710861520266316
+# Processing file: 1275972_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4609704629683625	14	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1275972_grids.txt	-0.4609704629683625	-0.4609704629683625
+# Processing file: 1107392_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6289022022702783	6	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1107392_grids.txt	-0.6289022022702783	-0.6289022022702783
+# Processing file: 283707_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5929984552838251	7	20
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/283707_grids.txt	-0.5929984552838251	-0.5929984552838251
+# Processing file: 743076_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5652093904660248	10	44
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/743076_grids.txt	-0.5652093904660248	-0.5652093904660248
+# Processing file: 880205_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4065549989481489	17	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/880205_grids.txt	-0.4065549989481489	-0.4065549989481489
+# Processing file: 1271741_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6340179648534044	6	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1271741_grids.txt	-0.6340179648534044	-0.6340179648534044
+# Processing file: 59454_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6186861076499497	9	37
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/59454_grids.txt	-0.6186861076499497	-0.6186861076499497
+# Processing file: 727534_grids
+#doc	#logprob	#sentences	#entities
+0	-0.42566109255557694	14	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/727534_grids.txt	-0.42566109255557694	-0.42566109255557694
+# Processing file: 56353_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6388876353777427	6	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/56353_grids.txt	-0.6388876353777427	-0.6388876353777427
+# Processing file: 1111806_grids
+#doc	#logprob	#sentences	#entities
+0	-0.17022533916449	3	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1111806_grids.txt	-0.17022533916449	-0.17022533916449
+# Processing file: 773548_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5342783296554608	8	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/773548_grids.txt	-0.5342783296554608	-0.5342783296554608
+# Processing file: 1120257_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6596461907756964	7	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1120257_grids.txt	-0.6596461907756964	-0.6596461907756964
+# Processing file: 1109591_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5869206707435438	7	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1109591_grids.txt	-0.5869206707435438	-0.5869206707435438
+# Processing file: 4317_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7945104840261978	5	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/4317_grids.txt	-0.7945104840261978	-0.7945104840261978
+# Processing file: 743612_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5264713525904172	6	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/743612_grids.txt	-0.5264713525904172	-0.5264713525904172
+# Processing file: 1105561_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5995686874114785	11	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1105561_grids.txt	-0.5995686874114785	-0.5995686874114785
+# Processing file: 1313038_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4967129880750893	11	59
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1313038_grids.txt	-0.4967129880750893	-0.4967129880750893
+# Processing file: 1292946_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49213598237417244	6	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1292946_grids.txt	-0.49213598237417244	-0.49213598237417244
+# Processing file: 1105590_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6374728998456014	7	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1105590_grids.txt	-0.6374728998456014	-0.6374728998456014
+# Processing file: 39238_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6526559738747643	7	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/39238_grids.txt	-0.6526559738747643	-0.6526559738747643
+# Processing file: 772964_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6049284533011059	6	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/772964_grids.txt	-0.6049284533011059	-0.6049284533011059
+# Processing file: 1114453_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4722566150473816	16	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1114453_grids.txt	-0.4722566150473816	-0.4722566150473816
+# Processing file: 1248894_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7158515116516864	6	47
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1248894_grids.txt	-0.7158515116516864	-0.7158515116516864
+# Processing file: 52808_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5702155452682581	8	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/52808_grids.txt	-0.5702155452682581	-0.5702155452682581
+# Processing file: 84099_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5954502263950687	9	44
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/84099_grids.txt	-0.5954502263950687	-0.5954502263950687
+# Processing file: 751520_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5886291080256032	7	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/751520_grids.txt	-0.5886291080256032	-0.5886291080256032
+# Processing file: 84500_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5182917176611305	9	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/84500_grids.txt	-0.5182917176611305	-0.5182917176611305
+# Processing file: 59146_grids
+#doc	#logprob	#sentences	#entities
+0	-0.42317667863626185	6	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/59146_grids.txt	-0.42317667863626185	-0.42317667863626185
+# Processing file: 1139195_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5242843352025092	13	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1139195_grids.txt	-0.5242843352025092	-0.5242843352025092
+# Processing file: 1311815_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4916157420400019	13	48
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1311815_grids.txt	-0.4916157420400019	-0.4916157420400019
+# Processing file: 1957_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48945121112613527	10	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1957_grids.txt	-0.48945121112613527	-0.48945121112613527
+# Processing file: 1261118_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3769083711381183	4	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1261118_grids.txt	-0.3769083711381183	-0.3769083711381183
+# Processing file: 56419_grids
+#doc	#logprob	#sentences	#entities
+0	-0.554565963369068	11	38
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/56419_grids.txt	-0.554565963369068	-0.554565963369068
+# Processing file: 773303_grids
+#doc	#logprob	#sentences	#entities
+0	-0.3967308159870192	16	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/773303_grids.txt	-0.3967308159870192	-0.3967308159870192
+# Processing file: 738560_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4812558778031627	12	13
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/738560_grids.txt	-0.4812558778031627	-0.4812558778031627
+# Processing file: 62531_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5137692111338451	18	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/62531_grids.txt	-0.5137692111338451	-0.5137692111338451
+# Processing file: 285612_grids
+#doc	#logprob	#sentences	#entities
+0	-0.45238996846573437	14	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/285612_grids.txt	-0.45238996846573437	-0.45238996846573437
+# Processing file: 58917_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6954096960435041	7	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/58917_grids.txt	-0.6954096960435041	-0.6954096960435041
+# Processing file: 1312922_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6449646998794579	7	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1312922_grids.txt	-0.6449646998794579	-0.6449646998794579
+# Processing file: 766379_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48874127795581873	8	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/766379_grids.txt	-0.48874127795581873	-0.48874127795581873
+# Processing file: 1355132_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7160030045016921	5	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1355132_grids.txt	-0.7160030045016921	-0.7160030045016921
+# Processing file: 561434_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6220490905393022	9	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/561434_grids.txt	-0.6220490905393022	-0.6220490905393022
+# Processing file: 1125770_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6102460423665489	8	15
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1125770_grids.txt	-0.6102460423665489	-0.6102460423665489
+# Processing file: 1359383_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49613552060730587	11	74
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1359383_grids.txt	-0.49613552060730587	-0.49613552060730587
+# Processing file: 1144932_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49658630755006566	8	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1144932_grids.txt	-0.49658630755006566	-0.49658630755006566
+# Processing file: 59176_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6330748559368884	6	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/59176_grids.txt	-0.6330748559368884	-0.6330748559368884
+# Processing file: 1103267_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5077687010123824	10	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1103267_grids.txt	-0.5077687010123824	-0.5077687010123824
+# Processing file: 1278710_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5031126563361128	12	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1278710_grids.txt	-0.5031126563361128	-0.5031126563361128
+# Processing file: 283704_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6320820672599204	11	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/283704_grids.txt	-0.6320820672599204	-0.6320820672599204
+# Processing file: 19947_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5756547349036906	7	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/19947_grids.txt	-0.5756547349036906	-0.5756547349036906
+# Processing file: 104502_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5748728199124844	7	34
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/104502_grids.txt	-0.5748728199124844	-0.5748728199124844
+# Processing file: 59139_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6230462791573701	10	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/59139_grids.txt	-0.6230462791573701	-0.6230462791573701
+# Processing file: 877365_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6549964233972477	7	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/877365_grids.txt	-0.6549964233972477	-0.6549964233972477
+# Processing file: 947034_grids
+#doc	#logprob	#sentences	#entities
+0	-0.504486923075615	7	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/947034_grids.txt	-0.504486923075615	-0.504486923075615
+# Processing file: 57013_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5401651346799872	9	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/57013_grids.txt	-0.5401651346799872	-0.5401651346799872
+# Processing file: 1312911_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4129327796959161	17	59
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1312911_grids.txt	-0.4129327796959161	-0.4129327796959161
+# Processing file: 70666_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4633489856314652	17	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/70666_grids.txt	-0.4633489856314652	-0.4633489856314652
+# Processing file: 877436_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5965267068136195	6	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/877436_grids.txt	-0.5965267068136195	-0.5965267068136195
+# Processing file: 1293635_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8263434979818591	6	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1293635_grids.txt	-0.8263434979818591	-0.8263434979818591
+# Processing file: 759467_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4773900866838545	10	54
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/759467_grids.txt	-0.4773900866838545	-0.4773900866838545
+# Processing file: 45453_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4901496396193396	6	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/45453_grids.txt	-0.4901496396193396	-0.4901496396193396
+# Processing file: 57841_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47564531068123866	11	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/57841_grids.txt	-0.47564531068123866	-0.47564531068123866
+# Processing file: 1108804_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6046654556094537	9	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1108804_grids.txt	-0.6046654556094537	-0.6046654556094537
+# Processing file: 1109027_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5329137810227939	10	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1109027_grids.txt	-0.5329137810227939	-0.5329137810227939
+# Processing file: 688501_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6021214461862794	6	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/688501_grids.txt	-0.6021214461862794	-0.6021214461862794
+# Processing file: 1312610_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4688746455153329	15	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1312610_grids.txt	-0.4688746455153329	-0.4688746455153329
+# Processing file: 1267173_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6048628472644128	8	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1267173_grids.txt	-0.6048628472644128	-0.6048628472644128
+# Processing file: 1127108_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6217621252117767	7	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1127108_grids.txt	-0.6217621252117767	-0.6217621252117767
+# Processing file: 1149944_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6283054331584197	7	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1149944_grids.txt	-0.6283054331584197	-0.6283054331584197
+# Processing file: 894625_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5602633172292802	7	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/894625_grids.txt	-0.5602633172292802	-0.5602633172292802
+# Processing file: 76421_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8344074403537345	5	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/76421_grids.txt	-0.8344074403537345	-0.8344074403537345
+# Processing file: 1111866_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5676907434674059	9	45
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1111866_grids.txt	-0.5676907434674059	-0.5676907434674059
+# Processing file: 881432_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6736229992854553	7	33
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/881432_grids.txt	-0.6736229992854553	-0.6736229992854553
+# Processing file: 273438_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6723898135088557	6	27
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/273438_grids.txt	-0.6723898135088557	-0.6723898135088557
+# Processing file: 1240973_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4153541536635808	8	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1240973_grids.txt	-0.4153541536635808	-0.4153541536635808
+# Processing file: 1137382_grids
+#doc	#logprob	#sentences	#entities
+0	-0.609428865667968	9	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1137382_grids.txt	-0.609428865667968	-0.609428865667968
+# Processing file: 900080_grids
+#doc	#logprob	#sentences	#entities
+0	-0.582363572784994	10	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/900080_grids.txt	-0.582363572784994	-0.582363572784994
+# Processing file: 1122712_grids
+#doc	#logprob	#sentences	#entities
+0	-0.49683889754065325	7	18
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1122712_grids.txt	-0.49683889754065325	-0.49683889754065325
+# Processing file: 1106151_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4519938010497437	13	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1106151_grids.txt	-0.4519938010497437	-0.4519938010497437
+# Processing file: 684197_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5241298343764615	9	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/684197_grids.txt	-0.5241298343764615	-0.5241298343764615
+# Processing file: 104432_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5781814813065167	11	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/104432_grids.txt	-0.5781814813065167	-0.5781814813065167
+# Processing file: 277829_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4906370409893474	7	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/277829_grids.txt	-0.4906370409893474	-0.4906370409893474
+# Processing file: 743529_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6553111370328855	5	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/743529_grids.txt	-0.6553111370328855	-0.6553111370328855
+# Processing file: 1261993_grids
+#doc	#logprob	#sentences	#entities
+0	-0.462360201503177	12	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1261993_grids.txt	-0.462360201503177	-0.462360201503177
+# Processing file: 1282143_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6464668479609927	9	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1282143_grids.txt	-0.6464668479609927	-0.6464668479609927
+# Processing file: 1355061_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5954502263950687	9	44
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1355061_grids.txt	-0.5954502263950687	-0.5954502263950687
+# Processing file: 1144632_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6615524240655851	8	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1144632_grids.txt	-0.6615524240655851	-0.6615524240655851
+# Processing file: 682836_grids
+#doc	#logprob	#sentences	#entities
+0	-0.47634415456696516	11	56
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/682836_grids.txt	-0.47634415456696516	-0.47634415456696516
+# Processing file: 1246978_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5261833873982343	9	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1246978_grids.txt	-0.5261833873982343	-0.5261833873982343
+# Processing file: 75033_grids
+#doc	#logprob	#sentences	#entities
+0	-0.531235093067107	8	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/75033_grids.txt	-0.531235093067107	-0.531235093067107
+# Processing file: 900927_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4805176483805849	15	46
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/900927_grids.txt	-0.4805176483805849	-0.4805176483805849
+# Processing file: 1098260_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5171393149007859	9	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1098260_grids.txt	-0.5171393149007859	-0.5171393149007859
+# Processing file: 2318_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5079258079229269	10	31
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/2318_grids.txt	-0.5079258079229269	-0.5079258079229269
+# Processing file: 1336688_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4725711175874876	10	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1336688_grids.txt	-0.4725711175874876	-0.4725711175874876
+# Processing file: 874244_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5696767826609873	5	32
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/874244_grids.txt	-0.5696767826609873	-0.5696767826609873
+# Processing file: 275683_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6968673428222723	6	65
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/275683_grids.txt	-0.6968673428222723	-0.6968673428222723
+# Processing file: 1131834_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5150733600108378	8	21
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1131834_grids.txt	-0.5150733600108378	-0.5150733600108378
+# Processing file: 1130145_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4766944003928042	15	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1130145_grids.txt	-0.4766944003928042	-0.4766944003928042
+# Processing file: 1135556_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5599494691340521	10	49
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1135556_grids.txt	-0.5599494691340521	-0.5599494691340521
+# Processing file: 104359_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6041403506508827	8	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/104359_grids.txt	-0.6041403506508827	-0.6041403506508827
+# Processing file: 730404_grids
+#doc	#logprob	#sentences	#entities
+0	-0.43948940282041193	17	52
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/730404_grids.txt	-0.43948940282041193	-0.43948940282041193
+# Processing file: 1258079_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6230803695607487	9	35
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1258079_grids.txt	-0.6230803695607487	-0.6230803695607487
+# Processing file: 59463_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5177533608293378	10	36
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/59463_grids.txt	-0.5177533608293378	-0.5177533608293378
+# Processing file: 1336757_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4069465942971581	15	52
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1336757_grids.txt	-0.4069465942971581	-0.4069465942971581
+# Processing file: 43035_grids
+#doc	#logprob	#sentences	#entities
+0	-0.601583689885844	7	28
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/43035_grids.txt	-0.601583689885844	-0.601583689885844
+# Processing file: 1098297_grids
+#doc	#logprob	#sentences	#entities
+0	-0.530903150023747	8	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1098297_grids.txt	-0.530903150023747	-0.530903150023747
+# Processing file: 273465_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6340947584232735	5	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/273465_grids.txt	-0.6340947584232735	-0.6340947584232735
+# Processing file: 759501_grids
+#doc	#logprob	#sentences	#entities
+0	-0.548990780435683	11	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/759501_grids.txt	-0.548990780435683	-0.548990780435683
+# Processing file: 900825_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48997936555858407	10	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/900825_grids.txt	-0.48997936555858407	-0.48997936555858407
+# Processing file: 1358869_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5375018465326816	10	23
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1358869_grids.txt	-0.5375018465326816	-0.5375018465326816
+# Processing file: 725369_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6120560451130751	7	25
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/725369_grids.txt	-0.6120560451130751	-0.6120560451130751
+# Processing file: 725196_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5992811965009949	8	41
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/725196_grids.txt	-0.5992811965009949	-0.5992811965009949
+# Processing file: 1261185_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5068051291371869	10	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1261185_grids.txt	-0.5068051291371869	-0.5068051291371869
+# Processing file: 58608_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5498646416573624	6	29
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/58608_grids.txt	-0.5498646416573624	-0.5498646416573624
+# Processing file: 732667_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5056420318550455	8	24
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/732667_grids.txt	-0.5056420318550455	-0.5056420318550455
+# Processing file: 1359585_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5300712491600202	8	44
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1359585_grids.txt	-0.5300712491600202	-0.5300712491600202
+# Processing file: 1336608_grids
+#doc	#logprob	#sentences	#entities
+0	-0.44109419520479054	14	40
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1336608_grids.txt	-0.44109419520479054	-0.44109419520479054
+# Processing file: 1311817_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5058615805135191	10	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1311817_grids.txt	-0.5058615805135191	-0.5058615805135191
+# Processing file: 756667_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5703145726481624	6	14
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/756667_grids.txt	-0.5703145726481624	-0.5703145726481624
+# Processing file: 888705_grids
+#doc	#logprob	#sentences	#entities
+0	-0.46625761935542365	13	51
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/888705_grids.txt	-0.46625761935542365	-0.46625761935542365
+# Processing file: 771823_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7346724673226004	4	17
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/771823_grids.txt	-0.7346724673226004	-0.7346724673226004
+# Processing file: 1100979_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4929598538117687	10	43
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1100979_grids.txt	-0.4929598538117687	-0.4929598538117687
+# Processing file: 85106_grids
+#doc	#logprob	#sentences	#entities
+0	-0.7043553938587535	6	26
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/85106_grids.txt	-0.7043553938587535	-0.7043553938587535
+# Processing file: 1306421_grids
+#doc	#logprob	#sentences	#entities
+0	-0.48483389206059074	12	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1306421_grids.txt	-0.48483389206059074	-0.48483389206059074
+# Processing file: 1123765_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6442016381566688	4	22
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1123765_grids.txt	-0.6442016381566688	-0.6442016381566688
+# Processing file: 1248919_grids
+#doc	#logprob	#sentences	#entities
+0	-0.6249571298090257	9	48
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1248919_grids.txt	-0.6249571298090257	-0.6249571298090257
+# Processing file: 56797_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5107994361129246	8	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/56797_grids.txt	-0.5107994361129246	-0.5107994361129246
+# Processing file: 3068_grids
+#doc	#logprob	#sentences	#entities
+0	-0.692937566231259	5	19
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/3068_grids.txt	-0.692937566231259	-0.692937566231259
+# Processing file: 1122541_grids
+#doc	#logprob	#sentences	#entities
+0	-0.46725056306885143	14	30
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1122541_grids.txt	-0.46725056306885143	-0.46725056306885143
+# Processing file: 759891_grids
+#doc	#logprob	#sentences	#entities
+0	-0.8365649030054605	5	46
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/759891_grids.txt	-0.8365649030054605	-0.8365649030054605
+# Processing file: 1267709_grids
+#doc	#logprob	#sentences	#entities
+0	-0.5849839962655355	11	42
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/1267709_grids.txt	-0.5849839962655355	-0.5849839962655355
+# Processing file: 104597_grids
+#doc	#logprob	#sentences	#entities
+0	-0.4768688167482749	11	39
+/Users/Ghamay/Documents/mastersThesis/Data/GCDC/OutputData/enron/enron_test_grids/104597_grids.txt	-0.4768688167482749	-0.4768688167482749
