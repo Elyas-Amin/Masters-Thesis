@@ -78,7 +78,7 @@ def decode_many(unigrams, bigrams, salience, input_dir, output_path, jobs, estre
     tests = [None] * len(input_files)
     for i, input_file in enumerate(input_files):
         documents = read_grids(smart_open(input_file), r2i)
-        logging.info('%s: %d test documents read', input_file, len(documents))
+        # logging.info('%s: %d test documents read', input_file, len(documents))
         tests[i] = documents
 
     # Computes the log likelihood of each document in each test file

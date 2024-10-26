@@ -17,7 +17,7 @@ def main(args):
         format='%(levelname)s: %(message)s'
     )
 
-    # Process the JSONL file and get the training grids
+    # Process the directory containing the grids for training
     training = process_folder(args.input_train, r2i)
     
     # Check that training grids are not empty
@@ -32,8 +32,8 @@ def main(args):
     logging.info('%d unigrams and %d bigrams', unigrams.size, bigrams.size)
 
     # Construct the path for the training and testing output directories
-    training_output_dir = os.path.join(os.path.dirname(args.input_train), "../clinton", f"{os.path.splitext(os.path.basename(args.input_train))[0]}_training_data")
-    testing_output_dir = os.path.join(os.path.dirname(args.input_train), "../clinton", f"{os.path.splitext(os.path.basename(args.input_train))[0]}_testing_data")
+    training_output_dir = os.path.join(os.path.dirname(args.input_train), f"{os.path.splitext(os.path.basename(args.input_train))[0].split('_')[0]}_training_data")
+    testing_output_dir = os.path.join(os.path.dirname(args.input_train), f"{os.path.splitext(os.path.basename(args.input_train))[0].split('_')[0]}_testing_data")
 
     # Create the directories if they do not exist
     os.makedirs(training_output_dir, exist_ok=True)
@@ -53,10 +53,12 @@ def main(args):
         for r1, r2 in itertools.product(range(len(r2i)), range(len(r2i))):
             fb.write(f'{i2r[r1]}\t{i2r[r2]}\t{bigrams[r1, r2]}\n')
             
-    print("Done Testing")
+    print("Done Training")
 
     """Testing"""
     decode_many(train_unigram_file, train_bigram_file, args.salience, args.input_test, testing_output_dir, args.jobs)
+    
+    print("Done testing")
 
 def argparser():
     parser = argparse.ArgumentParser(prog='main')

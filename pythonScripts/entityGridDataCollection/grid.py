@@ -68,7 +68,7 @@ def process_folder(input_folder, str2int):
     for filename in os.listdir(input_folder):
         input_file_path = os.path.join(input_folder, filename)
         if os.path.isfile(input_file_path):
-            logging.info(f'Processing file: {filename}')
+            # logging.info(f'Processing file: {filename}')
             with open(input_file_path, 'r') as f:
                 file_grids = read_grids(f, str2int)
                 grids.extend(file_grids)
